@@ -307,14 +307,26 @@
   <main class="main">
     <!-- Hero Section -->
     <section id="hero" class="hero section">
-      <img src="assets/img/hero-bg.webp" alt="Akila Madhushnaka Hero Image" data-aos="fade-in" class="" />
+      <img 
+  src="assets/img/hero-bg.webp" 
+  srcset="
+    assets/img/hero-bg-small.webp 480w,
+    assets/img/hero-bg-medium.webp 768w,
+    assets/img/hero-bg.webp 1080w
+  "
+  sizes="(max-width: 480px) 100vw, 
+         (max-width: 768px) 100vw, 
+         50vw"
+  alt="Akila Madhushnaka Hero Image" 
+  data-aos="fade-in" 
+  class="" 
+/>
       <div class="container" data-aos="fade-up" data-aos-delay="100">
         <h2>Akila Madhushanka</h2>
         <p>
           I'm
           <span class="typed"
             data-typed-items="Game Developer, Softwear Developer, Freelancer, Web Developer, Android Developer"></span><span
-            class="typed-cursor typed-cursor--blink" aria-hidden="true"></span><span
             class="typed-cursor typed-cursor--blink" aria-hidden="true"></span>
         </p>
       </div>
