@@ -19,10 +19,10 @@
   <link rel="canonical" href="https://akilama471.github.io/" />
 
   <!-- Favicons -->
-  <link rel="icon" type="image/png" href="assets/img/favicon.ico"/>
+  <link rel="icon" type="image/png" href="assets/img/favicon.ico" />
   <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon-16x16.png">
-  <link rel="apple-touch-icon" type="image/png" href="assets/img/apple-touch-icon.png"/>
+  <link rel="apple-touch-icon" type="image/png" href="assets/img/apple-touch-icon.png" />
   <link rel="manifest" href="/site.webmanifest">
 
   <!-- Open Graph / Facebook -->
@@ -79,12 +79,12 @@
   <meta name="msapplication-TileImage" content="assets/img/mstile-144x144.png" />
   <link rel="manifest" href="site.webmanifest" />
 
-  <!-- Fonts -->
+  <!-- Fonts 
   <link href="https://fonts.googleapis.com" rel="preconnect" />
   <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin />
   <link
     href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-    rel="stylesheet" />
+    rel="stylesheet" />-->
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
@@ -264,42 +264,47 @@
   <header id="header" class="header d-flex flex-column">
     <i class="header-toggle d-xl-none bi bi-list"></i>
     <div class="profile-img">
-      <img src="assets/img/my-profile-img.webp" alt="" class="img-fluid rounded-circle" />
+      <img src="assets/img/my-profile-img.webp" alt="" class="img-fluid rounded-circle" width="120" height="120" />
     </div>
-    <a href="index.html" class="logo d-flex align-items-center justify-content-center">
+    <a href="index.html" class="logo d-flex align-items-center justify-content-center" aria-label="home-page">
       <h1 class="sitename">Akila Madhushanka</h1>
     </a>
     <div class="social-links text-center">
-      <a href="https://www.facebook.com/akila.madhushanka471/" class="facebook" aria-label="facebook-profile"><i class="bi bi-facebook"></i></a>
-      <a href="https://x.com/akilama471/" class="twitter" aria-label="twitter-profile"><i class="bi bi-twitter-x"></i></a>
-      <a href="https://www.instagram.com/akila.madhushanka471/" class="instagram" aria-label="instagram-profile"><i class="bi bi-instagram"></i></a>
-      <a href="https://www.linkedin.com/in/akilamadhushanka471/" class="linkedin" aria-label="linkedin-profile"><i class="bi bi-linkedin"></i></a>
+      <a href="https://www.facebook.com/akila.madhushanka471/" class="facebook" aria-label="facebook-profile"><i
+          class="bi bi-facebook"></i></a>
+      <a href="https://x.com/akilama471/" class="twitter" aria-label="twitter-profile"><i
+          class="bi bi-twitter-x"></i></a>
+      <a href="https://www.instagram.com/akila.madhushanka471/" class="instagram" aria-label="instagram-profile"><i
+          class="bi bi-instagram"></i></a>
+      <a href="https://www.linkedin.com/in/akilamadhushanka471/" class="linkedin" aria-label="linkedin-profile"><i
+          class="bi bi-linkedin"></i></a>
     </div>
     <nav id="navmenu" class="navmenu">
       <ul>
         <li>
-          <a href="#hero" class="active"><i class="bi bi-house navicon"></i>Home</a>
+          <a href="#hero" class="active" aria-label="home-section"><i class="bi bi-house navicon"></i>Home</a>
         </li>
         <li>
-          <a href="#about"><i class="bi bi-person navicon"></i> About</a>
+          <a href="#about" aria-label="about-section"><i class="bi bi-person navicon"></i> About</a>
         </li>
         <li>
-          <a href="#skills"><i class="bi bi-file-earmark-text navicon"></i> Skill</a>
+          <a href="#skills" aria-label="skills-section"><i class="bi bi-file-earmark-text navicon"></i> Skill</a>
         </li>
         <li>
-          <a href="#certificates"><i class="bi bi-hdd-stack navicon"></i> Certificate</a>
+          <a href="#certificates" aria-label="certificate-section"><i class="bi bi-hdd-stack navicon"></i>
+            Certificate</a>
         </li>
         <li>
-          <a href="#projects"><i class="bi bi-hdd-stack navicon"></i> Projects</a>
+          <a href="#projects" aria-label="project-section"><i class="bi bi-hdd-stack navicon"></i> Projects</a>
         </li>
         <li>
-          <a href="#resume"><i class="bi bi-file-earmark-text navicon"></i> Resume</a>
+          <a href="#resume" aria-label="resume-section"><i class="bi bi-file-earmark-text navicon"></i> Resume</a>
         </li>
         <li>
-          <a href="#services"><i class="bi bi-hdd-stack navicon"></i> Services</a>
+          <a href="#services" aria-label="services-section"><i class="bi bi-hdd-stack navicon"></i> Services</a>
         </li>
         <li>
-          <a href="#contact"><i class="bi bi-envelope navicon"></i> Contact</a>
+          <a href="#contact" aria-label="contact-section"><i class="bi bi-envelope navicon"></i> Contact</a>
         </li>
       </ul>
     </nav>
@@ -307,20 +312,13 @@
   <main class="main">
     <!-- Hero Section -->
     <section id="hero" class="hero section">
-      <img 
-  src="assets/img/hero-bg.webp" 
-  srcset="
+      <img src="assets/img/hero-bg.webp" srcset="
     assets/img/hero-bg-small.webp 480w,
     assets/img/hero-bg-medium.webp 768w,
     assets/img/hero-bg.webp 1080w
-  "
-  sizes="(max-width: 480px) 100vw, 
+  " sizes="(max-width: 480px) 100vw, 
          (max-width: 768px) 100vw, 
-         50vw"
-  alt="Akila Madhushnaka Hero Image" 
-  data-aos="fade-in" 
-  class="" 
-/>
+         50vw" alt="Akila Madhushnaka Hero Image" data-aos="fade-in" class="" width="100" height="100"/>
       <div class="container" data-aos="fade-up" data-aos-delay="100">
         <h2>Akila Madhushanka</h2>
         <p>
@@ -345,7 +343,8 @@
       <div class="container" data-aos="fade-up" data-aos-delay="100">
         <div class="row gy-4 justify-content-center">
           <div class="col-lg-4 position-relative">
-            <img src="assets/img/my-profile-img.webp" class="img-fluid rounded shadow-lg" alt="Akila Madhushanka" width="416" height="416"/>
+            <img src="assets/img/my-profile-img.webp" class="img-fluid rounded shadow-lg" alt="Akila Madhushanka"
+              width="416" height="416" />
             <div class="experience-badge position-absolute bg-primary text-white py-2 px-3 rounded-pill shadow"
               style="top: 15px; right: 15px;">
               5+ Years Experience
@@ -379,7 +378,8 @@
                   <li class="mb-2">
                     <i class="bi bi-globe me-2 text-primary"></i>
                     <strong>Portfolio:</strong>
-                    <a href="https://akilama471.github.io/" class="text-decoration-none" aria-label="github-page">akilama471.github.io</a>
+                    <a href="https://akilama471.github.io/" class="text-decoration-none"
+                      aria-label="github-page">akilama471.github.io</a>
                   </li>
                   <li class="mb-2">
                     <i class="bi bi-briefcase me-2 text-primary"></i>
@@ -393,8 +393,8 @@
                   <li class="mb-2">
                     <i class="bi bi-envelope me-2 text-primary"></i>
                     <strong>Email:</strong>
-                    <a href="mailto:developer.akila5@gmail.com"
-                      class="text-decoration-none">developer.akila5@gmail.com</a>
+                    <a href="mailto:developer.akila5@gmail.com" class="text-decoration-none"
+                      aria-label="email-address">developer.akila5@gmail.com</a>
                   </li>
                   <li class="mb-2">
                     <i class="bi bi-phone me-2 text-primary"></i>
@@ -830,11 +830,13 @@
           <div class="col-lg-4 col-md-6 certificate-item filter-freecodecamp filter-microsoft">
             <div class="card h-100 border-0 shadow-sm">
               <div class="certificate-image position-relative overflow-hidden">
-                <img src="assets/img/certificate/freecodecamp-csharp.webp" class="card-img-top" alt="C# Certification" width="416" height="312">
+                <img src="assets/img/certificate/freecodecamp-csharp.webp" loading="lazy" class="card-img-top"
+                  alt="C# Certification" width="416" height="312">
                 <div class="certificate-overlay">
                   <div class="certificate-actions">
                     <a href="https://www.freecodecamp.org/certification/akilama471/foundational-c-sharp-with-microsoft"
-                      class="btn btn-light btn-sm rounded-circle" target="_blank" title="Verify Certificate" aria-label="freecodecamp-csharp-certificate">
+                      class="btn btn-light btn-sm rounded-circle" target="_blank" title="Verify Certificate"
+                      aria-label="freecodecamp-csharp-certificate">
                       <i class="bi bi-link-45deg"></i>
                     </a>
                   </div>
@@ -846,9 +848,9 @@
                   <span class="badge bg-secondary">Microsoft</span>
                 </div>
                 <h4 class="card-title">Foundational C# with Microsoft</h5>
-                <p class="card-text text-muted small">Comprehensive training in C# programming fundamentals, covering
-                  object-oriented concepts, data structures, and application development using Microsoft's framework.
-                </p>
+                  <p class="card-text text-muted small">Comprehensive training in C# programming fundamentals, covering
+                    object-oriented concepts, data structures, and application development using Microsoft's framework.
+                  </p>
               </div>
               <div class="card-footer bg-white border-0 pt-0">
                 <div class="d-flex align-items-center text-muted small">
@@ -862,12 +864,13 @@
           <div class="col-lg-4 col-md-6 certificate-item filter-freecodecamp">
             <div class="card h-100 border-0 shadow-sm">
               <div class="certificate-image position-relative overflow-hidden">
-                <img src="assets/img/certificate/freecodecamp-responsive-web-design.webp" class="card-img-top"
-                  alt="Responsive Web Design Certification" width="416" height="312">
+                <img src="assets/img/certificate/freecodecamp-responsive-web-design.webp" loading="lazy"
+                  class="card-img-top" alt="Responsive Web Design Certification" width="416" height="312>
                 <div class="certificate-overlay">
                   <div class="certificate-actions">
                     <a href="https://www.freecodecamp.org/certification/akilama471/responsive-web-design"
-                      class="btn btn-light btn-sm rounded-circle" target="_blank" title="Verify Certificate" aria-label="freecodecamp-web-design-certificate">
+                      class="btn btn-light btn-sm rounded-circle" target="_blank" title="Verify Certificate"
+                      aria-label="freecodecamp-web-design-certificate">
                       <i class="bi bi-link-45deg"></i>
                     </a>
                   </div>
@@ -878,8 +881,8 @@
                   <span class="badge bg-primary">freeCodeCamp</span>
                 </div>
                 <h4 class="card-title">Responsive Web Design</h5>
-                <p class="card-text text-muted small">Mastery of HTML, CSS, and responsive design principles for
-                  creating web applications that adapt seamlessly across all device sizes and screen resolutions.</p>
+                  <p class="card-text text-muted small">Mastery of HTML, CSS, and responsive design principles for
+                    creating web applications that adapt seamlessly across all device sizes and screen resolutions.</p>
               </div>
               <div class="card-footer bg-white border-0 pt-0">
                 <div class="d-flex align-items-center text-muted small">
@@ -893,11 +896,13 @@
           <div class="col-lg-4 col-md-6 certificate-item filter-university">
             <div class="card h-100 border-0 shadow-sm">
               <div class="certificate-image position-relative overflow-hidden">
-                <img src="assets/img/certificate/uom-python-1.webp" class="card-img-top" alt="Python Certification" width="416" height="312">
+                <img src="assets/img/certificate/uom-python-1.webp" loading="lazy" class="card-img-top"
+                  alt="Python Certification" width="416" height="312>
                 <div class="certificate-overlay">
                   <div class="certificate-actions">
                     <a href="https://open.uom.lk/lms/mod/customcert/view.php?id=675&downloadown=1"
-                      class="btn btn-light btn-sm rounded-circle" target="_blank" title="Verify Certificate">
+                      class="btn btn-light btn-sm rounded-circle" target="_blank" title="Verify Certificate"
+                      aria-label="university-of-moratuwa-certificate">
                       <i class="bi bi-link-45deg"></i>
                     </a>
                   </div>
@@ -908,9 +913,10 @@
                   <span class="badge bg-success">University of Moratuwa</span>
                 </div>
                 <h4 class="card-title">Python Programming - Level 1</h5>
-                <p class="card-text text-muted small">Foundation course in Python programming from a leading Sri Lankan
-                  university, covering syntax, data structures, algorithmic thinking, and practical application
-                  development.</p>
+                  <p class="card-text text-muted small">Foundation course in Python programming from a leading Sri
+                    Lankan
+                    university, covering syntax, data structures, algorithmic thinking, and practical application
+                    development.</p>
               </div>
               <div class="card-footer bg-white border-0 pt-0">
                 <div class="d-flex align-items-center text-muted small">
@@ -952,10 +958,12 @@
 
       <div class="container">
         <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
-          
-          <ul class="nav nav-pills justify-content-center mb-4 isotope-filters" role="tablist" data-aos="fade-up" data-aos-delay="100">
+
+          <ul class="nav nav-pills justify-content-center mb-4 isotope-filters" role="tablist" data-aos="fade-up"
+            data-aos-delay="100">
             <li class="nav-item mx-2 filter-active" role="presentation" data-filter="*">
-              <button class="nav-link active px-4 py-2" type="button" role="tab" aria-selected="true">All Projects</button>
+              <button class="nav-link active px-4 py-2" type="button" role="tab" aria-selected="true">All
+                Projects</button>
             </li>
             <li class="nav-item mx-2" role="presentation" data-filter=".filter-web-system">
               <button class="nav-link px-4 py-2" id="backend-tab" data-bs-toggle="pill" data-bs-target="#backend"
@@ -980,9 +988,10 @@
             <!-- Laravel Project 1 -->
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-web-system">
               <div class="portfolio-content h-100">
-                <img src="assets/img/projects/laravel.webp" class="img-fluid" alt="Web based POS System" />
+                <img src="assets/img/projects/laravel.webp" loading="lazy" class="img-fluid"
+                  alt="Web based POS System" />
                 <div class="portfolio-info">
-                  <a href="project-details-web-pos.html">
+                  <a href="project-details-web-pos.html" aria-label="project-details-web-pos-section">
                     <h4>Enterprise POS Solution</h4>
                     <p class="project-description">A comprehensive point-of-sale ecosystem for mobile retailers with
                       advanced inventory management, sales analytics, and customer relationship tools that increased
@@ -1002,9 +1011,10 @@
             <!-- Flutter Project 1 -->
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-mobile-app">
               <div class="portfolio-content h-100">
-                <img src="assets/img/projects/flutter.webp" class="img-fluid" alt="Network Repair Management App" />
+                <img src="assets/img/projects/flutter.webp" loading="lazy" class="img-fluid"
+                  alt="Network Repair Management App" />
                 <div class="portfolio-info">
-                  <a href="project-details-telecom-fsp.html">
+                  <a href="project-details-telecom-fsp.html" aria-label="project-details-telecom-fsp-section">
                     <h4>Telecom Field Service Platform</h4>
                     <p class="project-description">A cross-platform mobile solution that revolutionized
                       telecommunications
@@ -1025,9 +1035,9 @@
             <!-- Laravel Project 2 -->
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-web-system">
               <div class="portfolio-content h-100">
-                <img src="assets/img/projects/laravel.webp" class="img-fluid" alt="CRM System" />
+                <img src="assets/img/projects/laravel.webp" loading="lazy" class="img-fluid" alt="CRM System" />
                 <div class="portfolio-info">
-                  <a href="project-details-dcf-crm.html">
+                  <a href="project-details-dcf-crm.html" aria-label="project-details-dcf-crm-section">
                     <h4>Integrated CRM Ecosystem</h4>
                     <p class="project-description">A scalable customer relationship management solution featuring
                       automated lead nurturing, pipeline visualization, and business intelligence reporting that
@@ -1047,9 +1057,11 @@
             <!-- C# Project -->
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-desktop-app">
               <div class="portfolio-content h-100">
-                <img src="assets/img/projects/csharp.webp" class="img-fluid" alt="Retail Management System" />
+                <img src="assets/img/projects/csharp.webp" loading="lazy" class="img-fluid"
+                  alt="Retail Management System" />
                 <div class="portfolio-info">
-                  <a href="project-details-retail-management.html">
+                  <a href="project-details-retail-management.html"
+                    aria-label="project-details-retail-management-section">
                     <h4>Retail Operations Suite</h4>
                     <p class="project-description">A high-performance desktop application enabling comprehensive retail
                       management with real-time inventory synchronization, predictive analytics, and integrated supply
@@ -1068,9 +1080,10 @@
             <!-- Laravel Project 3 -->
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-web-system">
               <div class="portfolio-content h-100">
-                <img src="assets/img/projects/laravel.webp" class="img-fluid" alt="HR Management System" />
+                <img src="assets/img/projects/laravel.webp" loading="lazy" class="img-fluid"
+                  alt="HR Management System" />
                 <div class="portfolio-info">
-                  <a href="project-details-nas-hr.html">
+                  <a href="project-details-nas-hr.html" aria-label="project-details-nas-hr-section">
                     <h4>Workforce Optimization Platform</h4>
                     <p class="project-description">An enterprise HR solution featuring AI-driven scheduling algorithms,
                       performance analytics, and labor forecasting that reduced scheduling conflicts by 64% and
@@ -1090,9 +1103,11 @@
             <!-- Flutter Project 2 -->
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-mobile-app">
               <div class="portfolio-content h-100">
-                <img src="assets/img/projects/flutter.webp" class="img-fluid" alt="Restaurant Management App" />
+                <img src="assets/img/projects/flutter.webp" loading="lazy" class="img-fluid"
+                  alt="Restaurant Management App" />
                 <div class="portfolio-info">
-                  <a href="project-details-restaurant-management.html">
+                  <a href="project-details-restaurant-management.html"
+                    aria-label="project-details-restaurant-management-section">
                     <h4>Restaurant Management Ecosystem</h4>
                     <p class="project-description">A comprehensive food service platform featuring real-time order
                       processing, delivery logistics optimization, and integrated payment processing that increased
@@ -1112,9 +1127,11 @@
             <!-- Laravel Project 4 -->
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-web-system">
               <div class="portfolio-content h-100">
-                <img src="assets/img/projects/laravel.webp" class="img-fluid" alt="Church Management System" />
+                <img src="assets/img/projects/laravel.webp" loading="lazy" class="img-fluid"
+                  alt="Church Management System" />
                 <div class="portfolio-info">
-                  <a href="project-details-church-management.html">
+                  <a href="project-details-church-management.html"
+                    aria-label="project-details-church-management-section">
                     <h4>Faith Community Management System</h4>
                     <p class="project-description">A comprehensive engagement platform for religious organizations
                       featuring member relationship management, event coordination, secure donation processing, and
@@ -1302,7 +1319,8 @@
             </div>
             <div>
               <h4 class="title">
-                <a href="service-details.html" class="stretched-link">Custom Web-Based Business Solutions</a>
+                <a href="service-details.html" class="stretched-link"
+                  aria-label="custom-web-based-business-solutions">Custom Web-Based Business Solutions</a>
               </h4>
               <p class="description">
                 Bespoke web applications designed specifically for your business processes, enhancing efficiency
@@ -1317,7 +1335,8 @@
             </div>
             <div>
               <h4 class="title">
-                <a href="service-details.html" class="stretched-link">Mobile Applications</a>
+                <a href="service-details.html" class="stretched-link" aria-label="mobile-applications-solutions">Mobile
+                  Applications</a>
               </h4>
               <p class="description">
                 Native and cross-platform mobile applications with intuitive interfaces and robust backend
@@ -1332,7 +1351,8 @@
             </div>
             <div>
               <h4 class="title">
-                <a href="service-details.html" class="stretched-link">Desktop Applications</a>
+                <a href="service-details.html" class="stretched-link"
+                  aria-label="desktop-applications-solutions">Desktop Applications</a>
               </h4>
               <p class="description">
                 Powerful, responsive desktop software solutions that optimize internal workflows and
@@ -1347,7 +1367,8 @@
             </div>
             <div>
               <h4 class="title">
-                <a href="service-details.html" class="stretched-link">Social Media Management</a>
+                <a href="service-details.html" class="stretched-link" aria-label="social-media-solutions">Social Media
+                  Management</a>
               </h4>
               <p class="description">
                 Strategic social media presence development including content planning, community engagement,
@@ -1362,7 +1383,8 @@
             </div>
             <div>
               <h4 class="title">
-                <a href="service-details.html" class="stretched-link">Brand Development</a>
+                <a href="service-details.html" class="stretched-link" aria-label="branding-solutions">Brand
+                  Development</a>
               </h4>
               <p class="description">
                 Cohesive brand identity creation including digital assets, style guides, and consistent
@@ -1377,7 +1399,7 @@
             </div>
             <div>
               <h4 class="title">
-                <a href="service-details.html" class="stretched-link">SEO</a>
+                <a href="service-details.html" class="stretched-link" aria-label="seo-solutions">SEO</a>
               </h4>
               <p class="description">
                 Technical and content optimization to improve search engine visibility, incorporating
@@ -1392,7 +1414,8 @@
             </div>
             <div>
               <h4 class="title">
-                <a href="service-details.html" class="stretched-link">Digital Transformation</a>
+                <a href="service-details.html" class="stretched-link" aria-label="digital-transformation">Digital
+                  Transformation</a>
               </h4>
               <p class="description">
                 End-to-end digitization of business processes and legacy systems, creating interconnected
@@ -1407,7 +1430,7 @@
             </div>
             <div>
               <h4 class="title">
-                <a href="service-details.html" class="stretched-link">Data Analytics</a>
+                <a href="service-details.html" class="stretched-link" aria-label="data-analytics">Data Analytics</a>
               </h4>
               <p class="description">
                 Development of custom analytics solutions, dashboards, and reporting tools that transform
@@ -1472,14 +1495,10 @@
             </div>
           </div>
           <div class="col-lg-7">
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d494.2219951828304!2d80.2432867!3d7.7071738!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x41b76c8af98b32ff%3A0x138ca6a50d9a2a12!2sAkari%20Cloud%20Solutions!5e0!3m2!1sen!2slk!4v1719509523198!5m2!1sen!2slk"
-              width="600" height="450" style="border: 0" allowfullscreen="" loading="lazy"
-              referrerpolicy="no-referrer-when-downgrade" title="myLocation"></iframe>
           </div>
         </div>
       </div>
-    </section> 
+    </section>
     <!-- /Contact Section -->
   </main>
   <footer id="footer" class="footer position-relative">
@@ -1487,28 +1506,29 @@
       <div class="copyright text-center"></div>
       <div class="credits">
         Designed by
-        <a href="https://akilama471.github.io/">Akila Madhushanka [KilerZack]</a>
+        <a href="https://akilama471.github.io/" aria-label="akila-madhushanka-portfolio">Akila Madhushanka
+          [KilerZack]</a>
       </div>
     </div>
   </footer>
   <!-- Scroll Top -->
-  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
-      class="bi bi-arrow-up-short"></i></a>
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"
+    aria-label="back-to-top"><i class="bi bi-arrow-up-short"></i></a>
   <!-- Preloader -->
   <div id="preloader"></div>
   <!-- Vendor JS Files -->
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/typed.js/typed.umd.js"></script>
-  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.min.js" defer></script>
+  <script src="assets/vendor/php-email-form/validate.js" defer></script>
+  <script src="assets/vendor/aos/aos.js" defer></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js" defer></script>
+  <script src="assets/vendor/typed.js/typed.umd.js" defer></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js" defer></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js" defer></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js" defer></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js" defer></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js" defer></script>
   <!-- Main JS File -->
-  <script src="assets/js/main.js"></script>
+  <script src="assets/js/main.js" defer></script>
 </body>
 
 </html>
