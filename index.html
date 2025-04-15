@@ -79,13 +79,6 @@
   <meta name="msapplication-TileImage" content="assets/img/mstile-144x144.png" />
   <link rel="manifest" href="site.webmanifest" />
 
-  <!-- Fonts 
-  <link href="https://fonts.googleapis.com" rel="preconnect" />
-  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-    rel="stylesheet" />-->
-
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet" />
@@ -95,169 +88,6 @@
 
   <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet" />
-
-  <style>
-    /* Enhanced Portfolio Section Styling */
-    .portfolio-filters {
-      margin-bottom: 30px;
-      list-style: none;
-      padding: 0;
-      display: flex;
-      justify-content: center;
-      flex-wrap: wrap;
-      gap: 10px;
-    }
-
-    .portfolio-filters li {
-      cursor: pointer;
-      padding: 8px 16px;
-      font-size: 15px;
-      font-weight: 500;
-      line-height: 1;
-      color: var(--color-default);
-      margin: 0 4px 8px 4px;
-      transition: all 0.3s ease-in-out;
-      border-radius: 50px;
-      background: rgba(0, 0, 0, 0.05);
-    }
-
-    .portfolio-filters li:hover,
-    .portfolio-filters li.filter-active {
-      background: var(--color-primary);
-      color: #fff;
-    }
-
-    .portfolio-item {
-      margin-bottom: 30px;
-      overflow: hidden;
-    }
-
-    .portfolio-content {
-      position: relative;
-      overflow: hidden;
-      border-radius: 8px;
-      box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-      transition: all 0.5s ease;
-    }
-
-    .portfolio-content:hover {
-      transform: translateY(-5px);
-      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
-    }
-
-    .portfolio-content img {
-      transition: all 0.6s ease;
-      height: 240px;
-      object-fit: cover;
-      width: 100%;
-    }
-
-    .portfolio-content:hover img {
-      transform: scale(1.1);
-    }
-
-    .portfolio-info {
-      position: absolute;
-      inset: auto 0 0 0;
-      padding: 20px;
-      background: linear-gradient(0deg, rgba(0, 0, 0, 0.85) 0%, rgba(0, 0, 0, 0) 100%);
-      opacity: 0;
-      transition: all 0.4s ease;
-      display: flex;
-      flex-direction: column;
-    }
-
-    .portfolio-content:hover .portfolio-info {
-      opacity: 1;
-    }
-
-    .portfolio-info h4 {
-      font-size: 18px;
-      font-weight: 600;
-      color: #fff;
-      margin-bottom: 6px;
-    }
-
-    .portfolio-info p {
-      color: rgba(255, 255, 255, 0.8);
-      font-size: 14px;
-      margin-bottom: 12px;
-    }
-
-    .tech-stack {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 6px;
-      margin-top: 8px;
-      margin-bottom: 15px;
-    }
-
-    .tech-stack span {
-      font-size: 11px;
-      background: rgba(255, 255, 255, 0.15);
-      color: #fff;
-      padding: 3px 8px;
-      border-radius: 20px;
-    }
-
-    /* View Details Button */
-    .view-details-btn {
-      display: inline-block;
-      background-color: var(--color-primary, #4154f1);
-      color: #fff;
-      padding: 8px 20px;
-      border-radius: 4px;
-      font-size: 14px;
-      font-weight: 500;
-      text-decoration: none;
-      transition: all 0.3s ease;
-      text-align: center;
-      margin-top: auto;
-      /* Push button to bottom of flex container */
-      align-self: flex-start;
-      /* Align to left */
-    }
-
-    .view-details-btn:hover {
-      background-color: var(--color-primary-dark, #3a48d0);
-      transform: translateY(-2px);
-      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
-    }
-
-    /* Section Title Enhancement */
-    .section-title {
-      text-align: center;
-      padding-bottom: 40px;
-    }
-
-    .section-title h2 {
-      font-size: 32px;
-      font-weight: 700;
-      position: relative;
-      margin-bottom: 20px;
-      padding-bottom: 20px;
-      color: var(--color-secondary);
-    }
-
-    .section-title h2:after {
-      content: "";
-      position: absolute;
-      display: block;
-      width: 50px;
-      height: 3px;
-      background: var(--color-primary);
-      left: 0;
-      right: 0;
-      bottom: 0;
-      margin: auto;
-    }
-
-    .section-title p {
-      margin-bottom: 0;
-      font-size: 16px;
-      color: #6f6f6f;
-    }
-  </style>
 </head>
 
 <body class="index-page">
@@ -278,6 +108,8 @@
           class="bi bi-instagram"></i></a>
       <a href="https://www.linkedin.com/in/akilamadhushanka471/" rel="me" class="linkedin" aria-label="linkedin-profile"><i
           class="bi bi-linkedin"></i></a>
+      <a href="https://www.youtube.com/@akila.madhushanka471" rel="me" class="youtube" aria-label="youtube-channel"><i
+          class="bi bi-youtube"></i></a>
     </div>
     <nav id="navmenu" class="navmenu">
       <ul>
@@ -398,15 +230,15 @@
                   </li>
                   <li class="mb-2">
                     <i class="bi bi-phone me-2 text-primary"></i>
-                    <strong>Mobile:</strong> <span>+94 70 110 8494</span>
+                    <strong>Mobile:</strong> <span><a href="tel:+94701108494">+94 70 110 8494</a></span>
                   </li>
                   <li class="mb-2">
                     <i class="bi bi-telephone me-2 text-primary"></i>
-                    <strong>Office:</strong> <span>+94 76 722 1025</span>
+                    <strong>Office:</strong> <span><a href="https://wa.me/+94767221025">+94 76 722 1025</span>
                   </li>
                   <li class="mb-2">
                     <i class="bi bi-whatsapp me-2 text-primary"></i>
-                    <strong>WhatsApp:</strong> <span>+94 75 522 4417</span>
+                    <strong>WhatsApp:</strong> <span><a href="https://wa.me/+94755224417">+94 75 522 4417</a></span>
                   </li>
                 </ul>
               </div>
@@ -831,7 +663,7 @@
             <div class="card h-100 border-0 shadow-sm">
               <div class="certificate-image position-relative overflow-hidden">
                 <img src="assets/img/certificate/freecodecamp-csharp.webp" loading="lazy" class="card-img-top"
-                  alt="C# Certification" width="321" height="312">
+                  alt="C# Certification" width="416" height="312">
                 <div class="certificate-overlay">
                   <div class="certificate-actions">
                     <a href="https://www.freecodecamp.org/certification/akilama471/foundational-c-sharp-with-microsoft"
@@ -865,7 +697,7 @@
             <div class="card h-100 border-0 shadow-sm">
               <div class="certificate-image position-relative overflow-hidden">
                 <img src="assets/img/certificate/freecodecamp-responsive-web-design.webp" loading="lazy"
-                  class="card-img-top" alt="Responsive Web Design Certification"  width="321" height="312">
+                  class="card-img-top" alt="Responsive Web Design Certification"  width="416" height="312">
                 <div class=" certificate-overlay">
                 <div class="certificate-actions">
                   <a href="https://www.freecodecamp.org/certification/akilama471/responsive-web-design"
@@ -897,7 +729,7 @@
           <div class="card h-100 border-0 shadow-sm">
             <div class="certificate-image position-relative overflow-hidden">
               <img src="assets/img/certificate/uom-python-1.webp" loading="lazy" class="card-img-top"
-                alt="Python Certification" width="321" height="312">
+                alt="Python Certification" width="416" height="312">
                 <div class=" certificate-overlay">
               <div class="certificate-actions">
                 <a href="https://open.uom.lk/lms/mod/customcert/view.php?id=675&downloadown=1"
@@ -966,19 +798,19 @@
                 Projects</button>
             </li>
             <li class="nav-item mx-2" role="presentation" data-filter=".filter-web-system">
-              <button class="nav-link px-4 py-2" id="backend-tab" data-bs-toggle="pill" data-bs-target="#backend"
+              <button class="nav-link px-4 py-2" data-bs-toggle="pill" 
                 type="button" role="tab" aria-selected="false">Web Systems</button>
             </li>
             <li class="nav-item mx-2" role="presentation" data-filter=".filter-mobile-app">
-              <button class="nav-link px-4 py-2" id="mobile-tab" data-bs-toggle="pill" data-bs-target="#mobile"
+              <button class="nav-link px-4 py-2" data-bs-toggle="pill" 
                 type="button" role="tab" aria-selected="false">Mobile App</button>
             </li>
             <li class="nav-item mx-2" role="presentation" data-filter=".filter-desktop-app">
-              <button class="nav-link px-4 py-2" id="frameworks-tab" data-bs-toggle="pill" data-bs-target="#frameworks"
+              <button class="nav-link px-4 py-2" data-bs-toggle="pill" 
                 type="button" role="tab" aria-selected="false">Desktop App</button>
             </li>
             <li class="nav-item mx-2" role="presentation" data-filter=".filter-games">
-              <button class="nav-link px-4 py-2" id="frameworks-tab" data-bs-toggle="pill" data-bs-target="#frameworks"
+              <button class="nav-link px-4 py-2" data-bs-toggle="pill" 
                 type="button" role="tab" aria-selected="false">Games</button>
             </li>
           </ul>
@@ -1473,7 +1305,7 @@
                 <i class="bi bi-telephone flex-shrink-0"></i>
                 <div>
                   <h3>Call Me</h3>
-                  <p>+94 76 722 1025</p>
+                  <p><a href="tel:+94701108494">+94 70 110 8494</a></p>
                 </div>
               </div>
               <!-- End Info Item -->
@@ -1481,7 +1313,7 @@
                 <i class="bi bi-whatsapp flex-shrink-0"></i>
                 <div>
                   <h3>Whatsapp Me</h3>
-                  <p>+94 75 522 4417</p>
+                  <p><a href="https://wa.me/+94755224417">+94 75 522 4417</a></p>
                 </div>
               </div>
               <!-- End Info Item -->
@@ -1489,7 +1321,7 @@
                 <i class="bi bi-envelope flex-shrink-0"></i>
                 <div>
                   <h3>Email Us</h3>
-                  <p>developer.akila5@gmail.com</p>
+                  <p><a href="mailto:developer.akila5@gmail.com">developer.akila5@gmail.com</a></p>
                 </div>
               </div>
             </div>
@@ -1506,8 +1338,7 @@
       <div class="copyright text-center"></div>
       <div class="credits">
         Designed by
-        <a href="https://akilama471.github.io/" rel="me" aria-label="akila-madhushanka-portfolio">Akila Madhushanka
-          [KilerZack]</a>
+        <a href="https://akilama471.github.io/" rel="me" aria-label="akila-madhushanka-portfolio">Akila Madhushanka</a>
       </div>
     </div>
   </footer>
