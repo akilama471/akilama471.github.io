@@ -4,11 +4,31 @@
         <loc>https://akilama471.github.io/</loc>
         <priority>1.0</priority>
         <changefreq>weekly</changefreq>
+        <image:image>
+            <image:loc>https://akilama471.github.io/assets/img/logo.webp</image:loc>
+            <image:caption>Akila Madusanka Logo Picture</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>https://akilama471.github.io/assets/img/my-profile-img.webp</image:loc>
+            <image:caption>Akila Madusanka Profile Picture</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>https://akilama471.github.io/assets/img/og-image.webp</image:loc>
+            <image:caption>Akila Madusanka OG Image</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>https://akilama471.github.io/assets/img/twitter-image.webp</image:loc>
+            <image:caption>Akila Madusanka Twitter OG Image</image:caption>
+        </image:image>
     </url>
     <url>
         <loc>https://akilama471.github.io/#hero</loc>
         <priority>0.9</priority>
         <changefreq>weekly</changefreq>
+        <image:image>
+            <image:loc>https://akilama471.github.io/assets/img/hero-bg.webp</image:loc>
+            <image:caption>Akila Madusanka Hero Picture</image:caption>
+        </image:image>
     </url>
     <url>
         <loc>https://akilama471.github.io/#about</loc>
@@ -24,6 +44,18 @@
         <loc>https://akilama471.github.io/#certificate</loc>
         <priority>0.8</priority>
         <changefreq>monthly</changefreq>
+        <image:image>
+            <image:loc>https://akilama471.github.io/assets/img/certificate/freecodecamp-csharp.webp</image:loc>
+            <image:caption>Akila Madusanka Hero Picture</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>https://akilama471.github.io/assets/img/certificate/freecodecamp-responsive-web-design.webp</image:loc>
+            <image:caption>Akila Madusanka Hero Picture</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>https://akilama471.github.io/assets/img/certificate/uom-python-1.webp</image:loc>
+            <image:caption>Akila Madusanka Hero Picture</image:caption>
+        </image:image>
     </url>
     <url>
         <loc>https://akilama471.github.io/#projects</loc>
