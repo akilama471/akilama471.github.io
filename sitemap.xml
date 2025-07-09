@@ -1,43 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"
-        xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
-        xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 
     <url>
         <loc>https://akilama471.github.io/</loc>
         <priority>1.0</priority>
-        <changefreq>weekly</changefreq>
-        <image:image>
-            <image:loc>https://akilama471.github.io/assets/img/logo.webp</image:loc>
-            <image:caption>Akila Madhushanka Logo Picture</image:caption>
-        </image:image>
-        <image:image>
-            <image:loc>https://akilama471.github.io/assets/img/my-profile-img.webp</image:loc>
-            <image:caption>Akila Madhushanka Profile Picture</image:caption>
-        </image:image>
-        <image:image>
-            <image:loc>https://akilama471.github.io/assets/img/og-image.webp</image:loc>
-            <image:caption>Akila Madhushanka OG Image</image:caption>
-        </image:image>
-        <image:image>
-            <image:loc>https://akilama471.github.io/assets/img/twitter-image.webp</image:loc>
-            <image:caption>Akila Madhushanka Twitter OG Image</image:caption>
-        </image:image>    
-        <image:image>
-            <image:loc>https://akilama471.github.io/assets/img/hero-bg.webp</image:loc>
-            <image:caption>Akila Madhushanka Hero Picture</image:caption>
-        </image:image>
-        <image:image>
-            <image:loc>https://akilama471.github.io/assets/img/certificate/freecodecamp-csharp.webp</image:loc>
-            <image:caption>Akila Madhushanka freecodecamp csharp certificate</image:caption>
-        </image:image>
-        <image:image>
-            <image:loc>https://akilama471.github.io/assets/img/certificate/freecodecamp-responsive-web-design.webp</image:loc>
-            <image:caption>Akila Madhushanka freecodecamp responsive web design certificate</image:caption>
-        </image:image>
-        <image:image>
-            <image:loc>https://akilama471.github.io/assets/img/certificate/uom-python-1.webp</image:loc>
-            <image:caption>Akila Madhushanka Univercity of moratuwa python stage 1 certificate</image:caption>
-        </image:image>
+        <changefreq>weekly</changefreq>        
+    </url>
+    
+    <url>
+        <loc>https://akilama471.github.io/services/</loc>
+        <priority>1.0</priority>
+        <changefreq>weekly</changefreq>        
+    </url>
+
+    <url>
+        <loc>https://akilama471.github.io/projects/</loc>
+        <priority>1.0</priority>
+        <changefreq>weekly</changefreq>        
     </url>
 </urlset>
