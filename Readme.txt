@@ -1,7 +1,3 @@
-Below is a `README.md` file crafted for your GitHub repository based on the provided HTML content. It summarizes the key sections of your portfolio website (About, Skills, Certifications, Projects, Services, and Contact) in a professional and concise manner, tailored for a GitHub audience. The Hero Image is included as a visual element, and the Setup/Installation and Usage sections are excluded as requested.
-
----
-
 # Akila Madhushanka - Full-Stack Developer Portfolio
 
 ![Hero Image](https://cdn.jsdelivr.net/gh/akilama471/akilama471.github.io@main/assets/img/hero-bg.webp)
@@ -114,18 +110,3 @@ Let's connect to discuss your project ideas or collaboration opportunities!
   - [Reddit](https://www.reddit.com/user/akilamadhushanka)
   - [Pinterest](https://www.pinterest.com/akila_madusanka_471)
   - [NextGenWare](https://nextgenware.github.io)
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
----
-
-### Notes:
-- **Hero Image**: Included at the top using the primary hero image from your website.
-- **Structure**: The README is organized to mirror the key sections of your portfolio, making it easy for GitHub visitors to understand your expertise and offerings.
-- **Conciseness**: Content is summarized to be concise yet informative, focusing on key details.
-- **Links**: All contact and social media links are included with proper markdown formatting.
-- **License**: Added a placeholder for the MIT License, which is common for GitHub projects. You can modify or remove this section if needed.
-
-If you need any adjustments or additional sections, let me know!
