@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO: Optimized Title for Search & Click-Through Rate -->
+    <title>Enterprise POS Solution Case Study | Laravel & Flutter Project by Akila Madhushanka</title>
+    
+    <!-- SEO & AEO: Detailed Description for Search Snippets and AI Summaries -->
+    <meta name="description" content="Case study of an Enterprise POS Solution built with Laravel and Flutter. Features real-time inventory sync, analytics, and CRM for mobile retailers. Developed by Akila Madhushanka.">
+    
+    <!-- SEO: Keywords for Indexing -->
+    <meta name="keywords" content="POS System, Laravel Project, Flutter App, Enterprise Solution, Inventory Management, Akila Madhushanka, Full-Stack Developer Case Study, Point of Sale Software, Web Development Portfolio">
+    
+    <!-- SEO: Canonical URL to prevent duplicate content issues -->
+    <link rel="canonical" href="https://akilama471.github.io/project-details.html">
+
+    <!-- Open Graph / Facebook / LinkedIn -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://akilama471.github.io/project-details.html">
+    <meta property="og:title" content="Enterprise POS Solution | Full-Stack Case Study">
+    <meta property="og:description" content="A comprehensive point-of-sale ecosystem featuring real-time sync, analytics, and CRM. Built with Laravel and Flutter.">
+    <meta property="og:image" content="https://cdn.jsdelivr.net/gh/akilama471/akilama471.github.io@main/assets/img/projects/laravel.webp">
+
+    <!-- Twitter Card -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:title" content="Enterprise POS Solution | Akila Madhushanka">
+    <meta property="twitter:description" content="See how I built a scalable POS system using Laravel and Flutter for enterprise retail management.">
+    <meta property="twitter:image" content="https://cdn.jsdelivr.net/gh/akilama471/akilama471.github.io@main/assets/img/projects/laravel.webp">
+
+    <!-- AEO: JSON-LD Structured Data for AI & Search Engines -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "Enterprise POS Solution",
+      "headline": "Enterprise POS Solution Case Study",
+      "applicationCategory": "BusinessApplication",
+      "operatingSystem": "Web, Android, iOS",
+      "description": "A comprehensive point-of-sale ecosystem for mobile retailers featuring advanced inventory management, real-time sales analytics, and integrated customer relationship tools.",
+      "author": {
+        "@type": "Person",
+        "name": "Akila Madhushanka",
+        "url": "https://akilama471.github.io/"
+      },
+      "image": "https://cdn.jsdelivr.net/gh/akilama471/akilama471.github.io@main/assets/img/projects/laravel.webp",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      },
+      "keywords": "Laravel, Flutter, MySQL, POS, Inventory Management",
+      "featureList": [
+        "Real-time Inventory Sync",
+        "Sales Analytics Dashboard",
+        "CRM Integration",
+        "Role-Based Access Control",
+        "Offline Capabilities"
+      ],
+      "softwareRequirements": "Laravel 9, Flutter 3.0, MySQL",
+      "about": {
+        "@type": "Thing",
+        "name": "Point of Sale Technology",
+        "description": "A cloud-based system to manage retail transactions and inventory."
+      }
+    }
+    </script>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="https://cdn.jsdelivr.net/gh/akilama471/akilama471.github.io@main/assets/img/favicon.ico">
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- AOS Animation CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Outfit', 'sans-serif'],
+                        mono: ['Space Grotesk', 'monospace'],
+                    },
+                    colors: {
+                        primary: '#06b6d4', // Cyan 500
+                        secondary: '#3b82f6', // Blue 500
+                        dark: {
+                            900: '#0f172a', // Slate 900
+                            800: '#1e293b', // Slate 800
+                            700: '#334155', // Slate 700
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    
+    <style>
+        /* Custom Scrollbar */
+        ::-webkit-scrollbar {
+            width: 10px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #0f172a;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #334155;
+            border-radius: 5px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #06b6d4;
+        }
+
+        /* Glassmorphism utilities */
+        .glass {
+            background: rgba(30, 41, 59, 0.7);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+    </style>
+</head>
+<body class="bg-dark-900 text-gray-300 font-sans antialiased">
+
+    <!-- Navigation (Simplified for sub-pages) -->
+    <nav class="fixed w-full z-50 transition-all duration-300 glass" id="navbar">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="index.html" class="text-2xl font-bold font-mono text-white tracking-tighter">
+                AM<span class="text-primary">.</span>
+            </a>
+            
+            <a href="index.html#projects" class="text-sm font-medium text-gray-300 hover:text-white flex items-center gap-2 group transition-colors">
+                <i class="fas fa-arrow-left group-hover:-translate-x-1 transition-transform"></i> Back to Projects
+            </a>
+        </div>
+    </nav>
+
+    <!-- Project Header Section -->
+    <section class="relative pt-32 pb-20">
+        <!-- Background Elements -->
+        <div class="absolute top-0 right-0 w-96 h-96 bg-primary/10 rounded-full blur-[100px] pointer-events-none"></div>
+
+        <div class="container mx-auto px-6">
+            <div class="max-w-4xl">
+                <div class="flex items-center gap-2 text-primary text-sm font-mono mb-4" data-aos="fade-right">
+                    <span>Web Development</span>
+                    <span>•</span>
+                    <span>2024</span>
+                </div>
+                
+                <h1 class="text-4xl md:text-5xl font-bold text-white mb-6 leading-tight" data-aos="fade-up">
+                    Enterprise POS Solution
+                </h1>
+                
+                <p class="text-xl text-gray-400 leading-relaxed mb-8" data-aos="fade-up" data-aos-delay="100">
+                    A comprehensive point-of-sale ecosystem for mobile retailers featuring advanced inventory management, real-time sales analytics, and integrated customer relationship tools.
+                </p>
+
+                <div class="flex flex-wrap gap-4" data-aos="fade-up" data-aos-delay="200">
+                    <a href="#" class="px-6 py-3 bg-primary text-white font-semibold rounded-lg hover:bg-cyan-600 transition-all shadow-lg shadow-primary/20 flex items-center gap-2">
+                        <i class="fas fa-external-link-alt"></i> Live Demo
+                    </a>
+                    <a href="#" class="px-6 py-3 bg-dark-800 border border-gray-700 text-white font-semibold rounded-lg hover:bg-dark-700 transition-all flex items-center gap-2">
+                        <i class="fab fa-github"></i> View Source
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Content Grid -->
+    <section class="py-12">
+        <div class="container mx-auto px-6">
+            <!-- Featured Image -->
+            <div class="w-full h-[300px] md:h-[500px] rounded-2xl overflow-hidden mb-16 border border-gray-700 relative group" data-aos="fade-up">
+                <div class="absolute inset-0 bg-gradient-to-t from-dark-900 via-transparent to-transparent opacity-60"></div>
+                <img src="https://cdn.jsdelivr.net/gh/akilama471/akilama471.github.io@main/assets/img/projects/laravel.webp" alt="Project Cover" class="w-full h-full object-cover">
+            </div>
+
+            <div class="grid lg:grid-cols-3 gap-12">
+                
+                <!-- Left Column: Detailed Info -->
+                <div class="lg:col-span-2 space-y-12">
+                    
+                    <!-- Overview -->
+                    <div data-aos="fade-up">
+                        <h2 class="text-2xl font-bold text-white mb-4">Project Overview</h2>
+                        <p class="text-gray-400 leading-relaxed mb-4">
+                            The client needed a robust solution to manage a growing chain of mobile retail outlets. The existing manual process was prone to errors and lacked real-time visibility into stock levels across branches.
+                        </p>
+                        <p class="text-gray-400 leading-relaxed">
+                            I engineered a centralized cloud-based POS system that synchronizes data instantly. The solution not only handles daily transactions but also provides deep insights into sales trends, enabling better procurement decisions. The system handles over 1000+ daily transactions with 99.9% uptime.
+                        </p>
+                    </div>
+
+                    <!-- Key Features -->
+                    <div data-aos="fade-up">
+                        <h2 class="text-2xl font-bold text-white mb-6">Key Features</h2>
+                        <div class="grid sm:grid-cols-2 gap-6">
+                            <div class="flex gap-4">
+                                <div class="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center text-primary shrink-0">
+                                    <i class="fas fa-sync-alt"></i>
+                                </div>
+                                <div>
+                                    <h3 class="text-white font-semibold mb-1">Real-time Sync</h3>
+                                    <p class="text-sm text-gray-400">Instant inventory updates across all 15 branches.</p>
+                                </div>
+                            </div>
+                            <div class="flex gap-4">
+                                <div class="w-10 h-10 rounded-lg bg-secondary/10 flex items-center justify-center text-secondary shrink-0">
+                                    <i class="fas fa-chart-pie"></i>
+                                </div>
+                                <div>
+                                    <h3 class="text-white font-semibold mb-1">Analytics Dashboard</h3>
+                                    <p class="text-sm text-gray-400">Visual reports on sales, profit, and top-selling items.</p>
+                                </div>
+                            </div>
+                            <div class="flex gap-4">
+                                <div class="w-10 h-10 rounded-lg bg-green-500/10 flex items-center justify-center text-green-400 shrink-0">
+                                    <i class="fas fa-users"></i>
+                                </div>
+                                <div>
+                                    <h3 class="text-white font-semibold mb-1">CRM Integration</h3>
+                                    <p class="text-sm text-gray-400">Loyalty points and customer purchase history tracking.</p>
+                                </div>
+                            </div>
+                            <div class="flex gap-4">
+                                <div class="w-10 h-10 rounded-lg bg-purple-500/10 flex items-center justify-center text-purple-400 shrink-0">
+                                    <i class="fas fa-shield-alt"></i>
+                                </div>
+                                <div>
+                                    <h3 class="text-white font-semibold mb-1">Role-Based Access</h3>
+                                    <p class="text-sm text-gray-400">Secure admin, manager, and cashier permission levels.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Gallery / Screenshots -->
+                    <div data-aos="fade-up">
+                        <h2 class="text-2xl font-bold text-white mb-6">Project Gallery</h2>
+                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                            <div class="rounded-xl overflow-hidden border border-gray-700 group hover:border-primary/50 transition-all cursor-pointer">
+                                <img src="https://cdn.jsdelivr.net/gh/akilama471/akilama471.github.io@main/assets/img/projects/laravel.webp" class="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-500" alt="Dashboard View">
+                            </div>
+                            <div class="rounded-xl overflow-hidden border border-gray-700 group hover:border-primary/50 transition-all cursor-pointer">
+                                <img src="https://cdn.jsdelivr.net/gh/akilama471/akilama471.github.io@main/assets/img/projects/flutter.webp" class="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-500" alt="Mobile View">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Right Column: Sidebar Info -->
+                <div class="lg:col-span-1 space-y-8">
+                    
+                    <!-- Tech Stack Card -->
+                    <div class="bg-dark-800 p-6 rounded-2xl border border-gray-700" data-aos="fade-left">
+                        <h3 class="text-lg font-bold text-white mb-4">Technologies Used</h3>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="px-3 py-1 bg-red-500/10 text-red-400 border border-red-500/20 rounded-full text-sm">Laravel</span>
+                            <span class="px-3 py-1 bg-blue-500/10 text-blue-400 border border-blue-500/20 rounded-full text-sm">Flutter</span>
+                            <span class="px-3 py-1 bg-yellow-500/10 text-yellow-400 border border-yellow-500/20 rounded-full text-sm">MySQL</span>
+                            <span class="px-3 py-1 bg-indigo-500/10 text-indigo-400 border border-indigo-500/20 rounded-full text-sm">Bootstrap 5</span>
+                            <span class="px-3 py-1 bg-green-500/10 text-green-400 border border-green-500/20 rounded-full text-sm">REST API</span>
+                        </div>
+                    </div>
+
+                    <!-- Project Info Card -->
+                    <div class="bg-dark-800 p-6 rounded-2xl border border-gray-700" data-aos="fade-left" data-aos-delay="100">
+                        <h3 class="text-lg font-bold text-white mb-4">Project Info</h3>
+                        <ul class="space-y-4 text-sm">
+                            <li class="flex justify-between border-b border-gray-700 pb-2">
+                                <span class="text-gray-400">Client</span>
+                                <span class="text-white font-medium">MobileMaster Chain</span>
+                            </li>
+                            <li class="flex justify-between border-b border-gray-700 pb-2">
+                                <span class="text-gray-400">Role</span>
+                                <span class="text-white font-medium">Full-Stack Lead</span>
+                            </li>
+                            <li class="flex justify-between border-b border-gray-700 pb-2">
+                                <span class="text-gray-400">Duration</span>
+                                <span class="text-white font-medium">3 Months</span>
+                            </li>
+                            <li class="flex justify-between">
+                                <span class="text-gray-400">Status</span>
+                                <span class="text-green-400 font-medium"><i class="fas fa-check-circle"></i> Completed</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Challenge Card -->
+                    <div class="bg-gradient-to-br from-dark-800 to-primary/10 p-6 rounded-2xl border border-gray-700" data-aos="fade-left" data-aos-delay="200">
+                        <h3 class="text-lg font-bold text-white mb-2"><i class="fas fa-lightbulb text-yellow-400 mr-2"></i>Primary Challenge</h3>
+                        <p class="text-sm text-gray-400 leading-relaxed">
+                            Ensuring data consistency during offline internet outages. Implemented a local caching mechanism in Flutter that auto-syncs when connectivity is restored.
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Navigation Footer -->
+    <section class="border-t border-gray-800 py-12 mt-12 bg-dark-800/50">
+        <div class="container mx-auto px-6 flex justify-between items-center">
+            <a href="#" class="text-gray-500 hover:text-white transition-colors flex items-center gap-2">
+                <i class="fas fa-arrow-left"></i> Previous Project
+            </a>
+            <a href="index.html#projects" class="text-primary font-bold hover:underline">
+                View All Projects
+            </a>
+            <a href="#" class="text-gray-500 hover:text-white transition-colors flex items-center gap-2">
+                Next Project <i class="fas fa-arrow-right"></i>
+            </a>
+        </div>
+    </section>
+
+    <!-- Simple Footer -->
+    <footer class="bg-dark-900 border-t border-gray-800 py-8 text-center">
+        <p class="text-gray-500 text-sm">
+            &copy; <script>document.write(new Date().getFullYear())</script> Akila Madhushanka. All rights reserved.
+        </p>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 800,
+            once: true,
+            offset: 50
+        });
+
+        // Navbar blur effect
+        window.addEventListener('scroll', () => {
+            const nav = document.getElementById('navbar');
+            if (window.scrollY > 50) {
+                nav.classList.add('shadow-lg');
+            } else {
+                nav.classList.remove('shadow-lg');
+            }
+        });
+    </script>
+</body>
+</html>
