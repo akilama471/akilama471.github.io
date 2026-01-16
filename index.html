@@ -1,1546 +1,678 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="en" class="scroll-smooth">
 <head>
-  <meta charset="utf-8" />
-  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-  <title>Akila Madhushanka | Flutter & Laravel Developer Sri Lanka.</title>
-  <meta name="description" content="Akila Madhushanka, a Sri Lanka-based full-stack developer, builds scalable Flutter, Laravel, and Firebase apps. Explore my portfolio for custom web & mobile solutions." />
-  <meta name="keywords" content="Akila Madhushanka, full-stack developer, Flutter developer Sri Lanka, Laravel developer, Firebase development, Jetpack Compose, MVVM architecture, REST API development, web development Sri Lanka, Vue.js developer, open-source contributor, mobile app development, software architecture, hire full-stack developer, cloud solutions Sri Lanka" />
-  <meta name="author" content="Akila Madhushanka" />
-  <meta name="google-site-verification" content="orgIBOdJI2dUrb7-rFX8gkmDBvnFKSKmZD0DGtOCMZM" />
-  <meta name="robots" content="index, follow" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akila Madhushanka | Full-Stack Developer</title>
+    <meta name="description" content="Portfolio of Akila Madhushanka - Full-Stack Developer & Digital Solutions Architect specializing in Flutter, Laravel, and Web Technologies.">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
-  <!-- Canonical URL -->
-  <link rel="canonical" href="https://akilama471.github.io/" />
+    <!-- AOS Animation CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
-  <!-- Favicons -->
-  <link rel="icon" type="image/png" href="assets/img/favicon.ico" />
-  <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon-16x16.png">
-  <link rel="apple-touch-icon" type="image/png" href="assets/img/apple-touch-icon.png" />
-  <link rel="manifest" href="/site.webmanifest">
-
-  <!-- Open Graph / Facebook -->
-  <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://akilama471.github.io/" />
-  <meta property="og:title" content="Akila Madhushanka | Full-Stack Developer & Mobile App Specialist" />
-  <meta property="og:description"
-    content="Expert in Android, Flutter, Laravel, and scalable cloud solutions. Passionate about building innovative software solutions with 5+ years of experience." />
-  <meta property="og:image" content="https://akilama471.github.io/assets/img/og-image.webp" />
-  <meta property="og:image:alt" content="Akila Madhushanka - Full-Stack Developer" />
-  <meta property="og:site_name" content="Akila Madhushanka Portfolio" />
-  <meta property="og:locale" content="en_US" />
-
-  <!-- Twitter Card -->
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:site" content="@YourTwitterHandle" />
-  <meta name="twitter:creator" content="@YourTwitterHandle" />
-  <meta name="twitter:title" content="Akila Madhushanka | Full-Stack Developer & Mobile App Specialist" />
-  <meta name="twitter:description"
-    content="Expert in Android, Flutter, Laravel, and cloud solutions. Passionate about software innovation and scalable architecture." />
-  <meta name="twitter:image" content="https://akilama471.github.io/assets/img/twitter-image.webp" />
-  <meta name="twitter:image:alt" content="Akila Madhushanka - Full-Stack Developer Portfolio" />
-
-  <!-- Structured Data / JSON-LD -->
-  <script type="application/ld+json">
-    {
-    "@context": "https://schema.org",
-    "@type": "Person",
-    "name": "Akila Madhushanka",
-    "alternateName": "KilerZack",
-    "url": "https://akilama471.github.io/",
-    "image": "https://akilama471.github.io/assets/img/profile.jpg",
-    "sameAs": [
-    "https://github.com/akilama471",
-    "https://linkedin.com/in/akilamadhushanka471",
-    "https://www.facebook.com/akila.madhushanka471",
-    "https://www.instagram.com/akila.madhushanka471",
-    "https://discordapp.com/users/775019743651823646",
-    "https://www.tiktok.com/@akila.madhushanka39",
-    "https://x.com/akilama471/",
-    "https://about.me/akilamadhushanka",
-    "https://www.reddit.com/user/akilamadhushanka/",
-    "https://www.pinterest.com/akila_madusanka_471/"
-    ],
-    "jobTitle": "Full-Stack Developer",
-    "worksFor": {
-    "@type": "Organization",
-    "name": "NextGenWare"
-    },
-    "description": "Full-Stack Developer with expertise in Android, Flutter, Firebase, Laravel, and Cloud Solutions."
-    }
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Outfit', 'sans-serif'],
+                        mono: ['Space Grotesk', 'monospace'],
+                    },
+                    colors: {
+                        primary: '#06b6d4', // Cyan 500
+                        secondary: '#3b82f6', // Blue 500
+                        dark: {
+                            900: '#0f172a', // Slate 900
+                            800: '#1e293b', // Slate 800
+                            700: '#334155', // Slate 700
+                        }
+                    }
+                }
+            }
+        }
     </script>
+    
+    <style>
+        /* Custom Scrollbar */
+        ::-webkit-scrollbar {
+            width: 10px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #0f172a;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #334155;
+            border-radius: 5px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #06b6d4;
+        }
 
-  <!-- Additional SEO tags -->
-  <meta name="theme-color" content="#ffffff" />
-  <meta name="msapplication-TileColor" content="#ffffff" />
-  <meta name="msapplication-TileImage" content="assets/img/mstile-144x144.png" />
-  <link rel="manifest" href="site.webmanifest" />
+        /* Glassmorphism utilities */
+        .glass {
+            background: rgba(30, 41, 59, 0.7);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
 
-  <!-- Vendor CSS Files -->
-  <link
-    href="https://cdn.jsdelivr.net/gh/akilama471/akilama471.github.io@main/assets/vendor/bootstrap/css/bootstrap.min.css"
-    rel="stylesheet" />
-  <link
-    href="https://cdn.jsdelivr.net/gh/akilama471/akilama471.github.io@main/assets/vendor/bootstrap-icons/bootstrap-icons.css"
-    rel="stylesheet" />
-  <link href="https://cdn.jsdelivr.net/gh/akilama471/akilama471.github.io@main/assets/vendor/aos/aos.css"
-    rel="stylesheet" />
-  <link
-    href="https://cdn.jsdelivr.net/gh/akilama471/akilama471.github.io@main/assets/vendor/glightbox/css/glightbox.min.css"
-    rel="stylesheet" />
-  <link
-    href="https://cdn.jsdelivr.net/gh/akilama471/akilama471.github.io@main/assets/vendor/swiper/swiper-bundle.min.css"
-    rel="stylesheet" />
-
-  <!-- Main CSS File -->
-  <link href="https://cdn.jsdelivr.net/gh/akilama471/akilama471.github.io@main/assets/css/main.min.css"
-    rel="stylesheet" />
-
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-FRWRGD5C2W"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
-
-    gtag('config', 'G-FRWRGD5C2W');
-  </script>
+        /* Hero Animation */
+        .blob {
+            position: absolute;
+            filter: blur(4xl);
+            opacity: 0.4;
+            animation: move 10s infinite alternate;
+        }
+        @keyframes move {
+            from { transform: translate(0, 0) scale(1); }
+            to { transform: translate(20px, -20px) scale(1.1); }
+        }
+    </style>
 </head>
- 
-<body class="index-page">
+<body class="bg-dark-900 text-gray-300 font-sans antialiased overflow-x-hidden relative">
 
-  <header id="header" class="header d-flex flex-column">
-    <i class="header-toggle d-xl-none bi bi-list"></i>
-    <div class="profile-img">
-      <img src="https://cdn.jsdelivr.net/gh/akilama471/akilama471.github.io@main/assets/img/my-profile-img.webp"
-        alt="Akila Madhushank's Profile Image" class="img-fluid rounded-circle" width="120" height="120" />
+    <!-- Background Elements -->
+    <div class="fixed inset-0 z-0 pointer-events-none overflow-hidden">
+        <div class="absolute top-[-10%] left-[-10%] w-96 h-96 bg-primary/20 rounded-full blur-[100px]"></div>
+        <div class="absolute bottom-[-10%] right-[-10%] w-96 h-96 bg-secondary/20 rounded-full blur-[100px]"></div>
     </div>
-    <a href="index.html" class="logo d-flex align-items-center justify-content-center" aria-label="home-page">
-      <h1 class="sitename">Akila Madhushanka</h1>
-    </a>
-    <div class="social-links text-center">
-      <a href="https://www.facebook.com/akila.madhushanka471/" rel="me" target="_blank" class="facebook"
-        aria-label="facebook-profile"><i class="bi bi-facebook"></i></a>
-      <a href="https://x.com/akilama471/" rel="me" target="_blank" class="twitter" aria-label="twitter-profile"><i
-          class="bi bi-twitter-x"></i></a>
-      <a href="https://www.instagram.com/akila.madhushanka471/" rel="me" target="_blank" class="instagram"
-        aria-label="instagram-profile"><i class="bi bi-instagram"></i></a>
-      <a href="https://www.linkedin.com/in/akilamadhushanka471/" rel="me" target="_blank" class="linkedin"
-        aria-label="linkedin-profile"><i class="bi bi-linkedin"></i></a>
-      <a href="https://www.youtube.com/@akila.madhushanka471" rel="me" target="_blank" class="youtube"
-        aria-label="youtube-channel"><i class="bi bi-youtube"></i></a>
-    </div>
-    <nav id="navmenu" class="navmenu">
-      <ul>
-        <li>
-          <a href="#hero" class="active" aria-label="home-section"><i class="bi bi-house navicon"></i>Home</a>
-        </li>
-        <li>
-          <a href="#about" aria-label="about-section"><i class="bi bi-person navicon"></i> About</a>
-        </li>
-        <li>
-          <a href="#skills" aria-label="skills-section"><i class="bi bi-file-earmark-text navicon"></i> Skill</a>
-        </li>
-        <li>
-          <a href="#certificates" aria-label="certificate-section"><i class="bi bi-hdd-stack navicon"></i>
-            Certificate</a>
-        </li>
-        <li>
-          <a href="#projects" aria-label="project-section"><i class="bi bi-hdd-stack navicon"></i> Projects</a>
-        </li>
-        <li>
-          <a href="#resume" aria-label="resume-section"><i class="bi bi-file-earmark-text navicon"></i> Resume</a>
-        </li>
-        <li>
-          <a href="#services" aria-label="services-section"><i class="bi bi-hdd-stack navicon"></i> Services</a>
-        </li>
-        <li>
-          <a href="#nextgenware" aria-label="nextgenware-section"><i class="bi bi-hdd-stack navicon"></i> Company</a>
-        </li>        
-        <li>
-          <a href="#contact" aria-label="contact-section"><i class="bi bi-envelope navicon"></i> Contact</a>
-        </li>
-      </ul>
+
+    <!-- Navigation -->
+    <nav class="fixed w-full z-50 transition-all duration-300 glass" id="navbar">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="#" class="text-2xl font-bold font-mono text-white tracking-tighter">
+                AM<span class="text-primary">.</span>
+            </a>
+            
+            <div class="hidden md:flex space-x-8 text-sm font-medium">
+                <a href="#home" class="hover:text-primary transition-colors">Home</a>
+                <a href="#about" class="hover:text-primary transition-colors">About</a>
+                <a href="#skills" class="hover:text-primary transition-colors">Skills</a>
+                <a href="#services" class="hover:text-primary transition-colors">Services</a>
+                <a href="#projects" class="hover:text-primary transition-colors">Projects</a>
+                <a href="#contact" class="bg-primary/10 text-primary px-4 py-2 rounded-full border border-primary/20 hover:bg-primary hover:text-white transition-all">Contact Me</a>
+            </div>
+
+            <!-- Mobile Menu Button -->
+            <button id="menu-btn" class="md:hidden text-white focus:outline-none">
+                <i class="fas fa-bars text-xl"></i>
+            </button>
+        </div>
+
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="md:hidden hidden bg-dark-800 border-t border-gray-700">
+            <div class="flex flex-col p-4 space-y-4">
+                <a href="#home" class="block hover:text-primary">Home</a>
+                <a href="#about" class="block hover:text-primary">About</a>
+                <a href="#skills" class="block hover:text-primary">Skills</a>
+                <a href="#projects" class="block hover:text-primary">Projects</a>
+                <a href="#contact" class="block text-primary">Contact Me</a>
+            </div>
+        </div>
     </nav>
-  </header>
-
-  <main class="main">
 
     <!-- Hero Section -->
-    <section id="hero" class="hero section">
-      <img src="https://cdn.jsdelivr.net/gh/akilama471/akilama471.github.io@main/assets/img/hero-bg.webp" srcset="
-      https://cdn.jsdelivr.net/gh/akilama471/akilama471.github.io@main/assets/img/hero-bg-small.webp 480w,
-      https://cdn.jsdelivr.net/gh/akilama471/akilama471.github.io@main/assets/img/hero-bg-medium.webp 768w,
-      https://cdn.jsdelivr.net/gh/akilama471/akilama471.github.io@main/assets/img/hero-bg.webp 1080w
-  " sizes="(max-width: 480px) 100vw, 
-         (max-width: 768px) 100vw, 
-         50vw" alt="Akila Madhushnaka Hero Image" data-aos="fade-in" class="" width="100" height="100" />
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-        <h2>Akila Madhushanka</h2>
-        <p>
-          I'm
-          <span class="typed"
-            data-typed-items="Game Developer, Softwear Developer, Freelancer, Web Developer, Android Developer"></span><span
-            class="typed-cursor typed-cursor--blink" aria-hidden="true"></span>
-        </p>
-      </div>
+    <section id="home" class="relative min-h-screen flex items-center pt-20 z-10">
+        <div class="container mx-auto px-6 flex flex-col-reverse md:flex-row items-center gap-12">
+            <div class="w-full md:w-1/2 space-y-6" data-aos="fade-right">
+                <div class="inline-block px-3 py-1 rounded-full bg-primary/10 border border-primary/20 text-primary text-sm font-mono mb-2">
+                    👋 Hello, I'm
+                </div>
+                <h1 class="text-5xl md:text-7xl font-bold text-white leading-tight">
+                    Akila <span class="text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary">Madhushanka</span>
+                </h1>
+                <h2 class="text-2xl md:text-3xl text-gray-400 font-mono">
+                    <span id="typewriter"></span>
+                </h2>
+                <p class="text-lg text-gray-400 max-w-lg leading-relaxed">
+                    Transforming ideas into digital reality. I craft robust solutions across Web, Mobile, and Backend systems with a focus on scalability and user experience.
+                </p>
+                
+                <div class="flex flex-wrap gap-4 pt-4">
+                    <a href="#projects" class="px-8 py-3 bg-gradient-to-r from-primary to-secondary text-white font-semibold rounded-lg hover:shadow-[0_0_20px_rgba(6,182,212,0.4)] transition-all transform hover:-translate-y-1">
+                        View Work
+                    </a>
+                    <a href="https://github.com/akilama471" target="_blank" class="px-8 py-3 bg-dark-800 border border-gray-700 text-white font-semibold rounded-lg hover:bg-dark-700 transition-all flex items-center gap-2">
+                        <i class="fab fa-github"></i> GitHub
+                    </a>
+                </div>
+
+                <div class="flex gap-6 pt-8 text-gray-400">
+                    <a href="https://linkedin.com/in/akilama471" class="hover:text-primary transition-colors text-2xl"><i class="fab fa-linkedin"></i></a>
+                    <a href="mailto:developer.akila5@gmail.com" class="hover:text-primary transition-colors text-2xl"><i class="fas fa-envelope"></i></a>
+                    <a href="https://wa.me/+94767221025" class="hover:text-primary transition-colors text-2xl"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+
+            <div class="w-full md:w-1/2 flex justify-center relative" data-aos="zoom-in">
+                <div class="relative w-72 h-72 md:w-96 md:h-96">
+                    <div class="absolute inset-0 bg-gradient-to-tr from-primary to-secondary rounded-full blur-2xl opacity-30 animate-pulse"></div>
+                    <img src="https://cdn.jsdelivr.net/gh/akilama471/akilama471.github.io@main/assets/img/my-profile-img.webp" alt="Akila Madhushanka" class="relative w-full h-full object-cover rounded-full border-4 border-dark-800 shadow-2xl z-10 grayscale hover:grayscale-0 transition-all duration-500">
+                    
+                    <!-- Floating Badge 1 -->
+                    <div class="absolute top-10 -right-4 glass px-4 py-2 rounded-lg flex items-center gap-3 animate-bounce shadow-lg z-20">
+                        <i class="fab fa-flutter text-primary text-2xl"></i>
+                        <div>
+                            <p class="text-xs text-gray-400">Expertise</p>
+                            <p class="text-sm font-bold text-white">Flutter Dev</p>
+                        </div>
+                    </div>
+
+                    <!-- Floating Badge 2 -->
+                    <div class="absolute bottom-10 -left-4 glass px-4 py-2 rounded-lg flex items-center gap-3 animate-bounce shadow-lg z-20 delay-150">
+                        <i class="fab fa-laravel text-red-500 text-2xl"></i>
+                        <div>
+                            <p class="text-xs text-gray-400">Backend</p>
+                            <p class="text-sm font-bold text-white">Laravel</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
-    
+
     <!-- About Section -->
-    <section id="about" class="about section">
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>About Me</h2>
-        <p class="lead">
-          Transforming Ideas into Digital Reality
-        </p>
-      </div>
-      <!-- End Section Title -->
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-        <div class="row gy-4 justify-content-center">
-          <div class="col-lg-4 position-relative">
-            <img src="https://cdn.jsdelivr.net/gh/akilama471/akilama471.github.io@main/assets/img/my-profile-img.webp"
-              class="img-fluid rounded shadow-lg" alt="Akila Madhushanka" width="416" height="416" />
-            <div class="experience-badge position-absolute bg-primary text-white py-2 px-3 rounded-pill shadow"
-              style="top: 15px; right: 15px;">
-              5+ Years Experience
+    <section id="about" class="py-20 bg-dark-800/50">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16" data-aos="fade-up">
+                <h2 class="text-3xl md:text-4xl font-bold text-white mb-4">About Me</h2>
+                <div class="w-20 h-1 bg-primary mx-auto rounded-full"></div>
             </div>
-          </div>
-          <div class="col-lg-8 content">
-            <h2 class="mb-4">Full-Stack Developer & Digital Solutions Architect</h2>
-            <p class="mb-4">
-              I'm Akila Madhushanka, a self-driven Full-Stack Developer from Sri Lanka with expertise in creating robust
-              digital solutions across multiple platforms. My technical journey is built on a foundation of curiosity,
-              continuous learning, and a passion for solving complex problems through elegant code.
-            </p>
-            <p class="mb-4">
-              Specializing in Android, Flutter, responsive web applications, and scalable backend systems, I craft
-              solutions that deliver exceptional user experiences while meeting business objectives. My self-taught
-              background has instilled a growth mindset that enables me to adapt quickly to emerging technologies and
-              industry best practices.
-            </p>
-            <div class="row mt-5">
-              <div class="col-lg-6">
-                <h3 class="fs-5 mb-3">Personal Details</h3>
-                <ul class="list-unstyled">
-                  <li class="mb-2">
-                    <i class="bi bi-calendar3 me-2 text-primary"></i>
-                    <strong>Born:</strong> <span>May 5, 2000 (24 years)</span>
-                  </li>
-                  <li class="mb-2">
-                    <i class="bi bi-geo-alt me-2 text-primary"></i>
-                    <strong>Location:</strong> <span>Wariyapola, Sri Lanka</span>
-                  </li>
-                  <li class="mb-2">
-                    <i class="bi bi-globe me-2 text-primary"></i>
-                    <strong>Portfolio:</strong>
-                    <a href="https://akilama471.github.io/" class="text-decoration-none"
-                      aria-label="github-page">akilama471.github.io</a>
-                  </li>
-                  <li class="mb-2">
-                    <i class="bi bi-briefcase me-2 text-primary"></i>
-                    <strong>Availability:</strong> <span class="badge bg-success">Open for Projects</span>
-                  </li>
-                </ul>
-              </div>
-              <div class="col-lg-6">
-                <h3 class="fs-5 mb-3">Contact Information</h3>
-                <ul class="list-unstyled">
-                  <li class="mb-2">
-                    <i class="bi bi-envelope me-2 text-primary"></i>
-                    <strong>Email:</strong>
-                    <a href="mailto:developer.akila5@gmail.com" class="text-decoration-none" aria-label="email-address"
-                      aria-label="email-address">developer.akila5@gmail.com</a>
-                  </li>
-                  <li class="mb-2">
-                    <i class="bi bi-phone me-2 text-primary"></i>
-                    <strong>Mobile:</strong> <span><a href="tel:+94701108494" aria-label="phone-number">+94 70 110
-                        8494</a></span>
-                  </li>
-                  <li class="mb-2">
-                    <i class="bi bi-telephone me-2 text-primary"></i>
-                    <strong>Office:</strong> <span><a href="https://wa.me/+94767221025" aria-label="office-number">+94
-                        76 722 1025</span>
-                  </li>
-                  <li class="mb-2">
-                    <i class="bi bi-whatsapp me-2 text-primary"></i>
-                    <strong>WhatsApp:</strong> <span><a href="https://wa.me/+94755224417"
-                        aria-label="whatsapp-number">+94 75 522 4417</a></span>
-                  </li>
-                </ul>
-              </div>
+
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div data-aos="fade-right">
+                    <h3 class="text-2xl font-bold text-white mb-4">Full-Stack Developer & Solutions Architect</h3>
+                    <p class="text-gray-400 mb-6 leading-relaxed">
+                        I'm Akila Madhushanka, a self-driven developer from Sri Lanka with over 5 years of experience. My technical journey is built on curiosity and a passion for solving complex problems through elegant code.
+                    </p>
+                    <p class="text-gray-400 mb-6 leading-relaxed">
+                        I specialize in building robust digital solutions, from responsive web applications to scalable backend systems and cross-platform mobile apps. Founder of <span class="text-primary font-semibold">NextGenWare</span>, I help businesses bridge the gap between technology and success.
+                    </p>
+                    
+                    <div class="grid grid-cols-2 gap-4 mb-8">
+                        <div class="p-4 bg-dark-900 rounded-lg border border-gray-700">
+                            <h4 class="text-primary font-bold text-xl">5+</h4>
+                            <p class="text-sm text-gray-400">Years Experience</p>
+                        </div>
+                        <div class="p-4 bg-dark-900 rounded-lg border border-gray-700">
+                            <h4 class="text-primary font-bold text-xl">20+</h4>
+                            <p class="text-sm text-gray-400">Projects Completed</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4" data-aos="fade-left">
+                     <!-- Education/Cert Card -->
+                    <div class="p-6 bg-dark-900 rounded-xl border border-gray-700 hover:border-primary/50 transition-colors">
+                        <i class="fas fa-graduation-cap text-primary text-3xl mb-4"></i>
+                        <h4 class="text-white font-bold mb-2">Education</h4>
+                        <p class="text-sm text-gray-400">University of Moratuwa (Python)</p>
+                        <p class="text-sm text-gray-400 mt-1">FreeCodeCamp (Web)</p>
+                    </div>
+                    <!-- Cert Card -->
+                    <div class="p-6 bg-dark-900 rounded-xl border border-gray-700 hover:border-primary/50 transition-colors">
+                        <i class="fas fa-award text-secondary text-3xl mb-4"></i>
+                        <h4 class="text-white font-bold mb-2">Certifications</h4>
+                        <p class="text-sm text-gray-400">Microsoft C# Foundation</p>
+                        <p class="text-sm text-gray-400 mt-1">Responsive Web Design</p>
+                    </div>
+                     <!-- Info Card -->
+                    <div class="p-6 bg-dark-900 rounded-xl border border-gray-700 hover:border-primary/50 transition-colors sm:col-span-2">
+                        <i class="fas fa-laptop-code text-green-400 text-3xl mb-4"></i>
+                        <h4 class="text-white font-bold mb-2">Current Focus</h4>
+                        <p class="text-sm text-gray-400">Building scalable enterprise solutions with Laravel & Flutter at NextGenWare.</p>
+                    </div>
+                </div>
             </div>
-            <div class="mt-5">
-              <h3 class="fs-5 mb-3">Core Competencies</h3>
-              <div class="row g-3">
-                <div class="col-6 col-md-3">
-                  <div class="p-3 rounded bg-light text-center">
-                    <i class="bi bi-phone-fill fs-3 text-primary mb-2"></i>
-                    <p class="mb-0">Mobile Development</p>
-                  </div>
-                </div>
-                <div class="col-6 col-md-3">
-                  <div class="p-3 rounded bg-light text-center">
-                    <i class="bi bi-globe fs-3 text-primary mb-2"></i>
-                    <p class="mb-0">Web Solutions</p>
-                  </div>
-                </div>
-                <div class="col-6 col-md-3">
-                  <div class="p-3 rounded bg-light text-center">
-                    <i class="bi bi-server fs-3 text-primary mb-2"></i>
-                    <p class="mb-0">Backend Systems</p>
-                  </div>
-                </div>
-                <div class="col-6 col-md-3">
-                  <div class="p-3 rounded bg-light text-center">
-                    <i class="bi bi-code-slash fs-3 text-primary mb-2"></i>
-                    <p class="mb-0">Custom Software</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
         </div>
-      </div>
     </section>
-    
+
     <!-- Skills Section -->
-    <section id="skills" class="skills section py-5">
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Technical Expertise</h2>
-        <p class="lead">
-          A comprehensive toolkit developed through continuous learning, practical application, and professional
-          experience.
-        </p>
-      </div>
-      <!-- End Section Title -->
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-        <!-- Skill Categories -->
-        <div class="row mb-5">
-          <div class="col-12">
-            <ul class="nav nav-pills justify-content-center mb-4" id="skills-tab" role="tablist">
-              <li class="nav-item mx-2" role="presentation">
-                <button class="nav-link active px-4 py-2" id="frontend-tab" data-bs-toggle="pill"
-                  data-bs-target="#frontend" type="button" role="tab" aria-selected="true">Frontend</button>
-              </li>
-              <li class="nav-item mx-2" role="presentation">
-                <button class="nav-link px-4 py-2" id="backend-tab" data-bs-toggle="pill" data-bs-target="#backend"
-                  type="button" role="tab" aria-selected="false">Backend</button>
-              </li>
-              <li class="nav-item mx-2" role="presentation">
-                <button class="nav-link px-4 py-2" id="mobile-tab" data-bs-toggle="pill" data-bs-target="#mobile"
-                  type="button" role="tab" aria-selected="false">Mobile</button>
-              </li>
-              <li class="nav-item mx-2" role="presentation">
-                <button class="nav-link px-4 py-2" id="frameworks-tab" data-bs-toggle="pill"
-                  data-bs-target="#frameworks" type="button" role="tab" aria-selected="false">Frameworks</button>
-              </li>
-            </ul>
-          </div>
+    <section id="skills" class="py-20">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16" data-aos="fade-up">
+                <h2 class="text-3xl md:text-4xl font-bold text-white mb-4">Technical Expertise</h2>
+                <p class="text-gray-400">A comprehensive toolkit developed through professional experience.</p>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Frontend -->
+                <div class="p-6 rounded-2xl bg-dark-800 border border-gray-700 hover:border-primary/30 transition-all" data-aos="fade-up" data-aos-delay="100">
+                    <h3 class="text-xl font-bold text-white mb-6 flex items-center gap-2">
+                        <i class="fas fa-code text-primary"></i> Frontend & Web
+                    </h3>
+                    <div class="space-y-4">
+                        <div>
+                            <div class="flex justify-between mb-1">
+                                <span class="text-sm font-medium text-gray-300">HTML/CSS/Bootstrap</span>
+                                <span class="text-xs text-primary">Expert</span>
+                            </div>
+                            <div class="w-full bg-dark-900 rounded-full h-2">
+                                <div class="bg-primary h-2 rounded-full" style="width: 95%"></div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="flex justify-between mb-1">
+                                <span class="text-sm font-medium text-gray-300">JavaScript/jQuery</span>
+                                <span class="text-xs text-primary">Advanced</span>
+                            </div>
+                            <div class="w-full bg-dark-900 rounded-full h-2">
+                                <div class="bg-primary h-2 rounded-full" style="width: 85%"></div>
+                            </div>
+                        </div>
+                         <div>
+                            <div class="flex justify-between mb-1">
+                                <span class="text-sm font-medium text-gray-300">React & Vue.js</span>
+                                <span class="text-xs text-primary">Intermediate</span>
+                            </div>
+                            <div class="w-full bg-dark-900 rounded-full h-2">
+                                <div class="bg-primary h-2 rounded-full" style="width: 60%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Backend -->
+                <div class="p-6 rounded-2xl bg-dark-800 border border-gray-700 hover:border-primary/30 transition-all" data-aos="fade-up" data-aos-delay="200">
+                    <h3 class="text-xl font-bold text-white mb-6 flex items-center gap-2">
+                        <i class="fas fa-server text-secondary"></i> Backend
+                    </h3>
+                    <div class="space-y-4">
+                        <div>
+                            <div class="flex justify-between mb-1">
+                                <span class="text-sm font-medium text-gray-300">Laravel (PHP)</span>
+                                <span class="text-xs text-secondary">Expert</span>
+                            </div>
+                            <div class="w-full bg-dark-900 rounded-full h-2">
+                                <div class="bg-secondary h-2 rounded-full" style="width: 95%"></div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="flex justify-between mb-1">
+                                <span class="text-sm font-medium text-gray-300">Django (Python)</span>
+                                <span class="text-xs text-secondary">Proficient</span>
+                            </div>
+                            <div class="w-full bg-dark-900 rounded-full h-2">
+                                <div class="bg-secondary h-2 rounded-full" style="width: 80%"></div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="flex justify-between mb-1">
+                                <span class="text-sm font-medium text-gray-300">C# / .NET</span>
+                                <span class="text-xs text-secondary">Proficient</span>
+                            </div>
+                            <div class="w-full bg-dark-900 rounded-full h-2">
+                                <div class="bg-secondary h-2 rounded-full" style="width: 75%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Mobile -->
+                <div class="p-6 rounded-2xl bg-dark-800 border border-gray-700 hover:border-primary/30 transition-all" data-aos="fade-up" data-aos-delay="300">
+                    <h3 class="text-xl font-bold text-white mb-6 flex items-center gap-2">
+                        <i class="fas fa-mobile-alt text-green-400"></i> Mobile & Others
+                    </h3>
+                    <div class="space-y-4">
+                        <div>
+                            <div class="flex justify-between mb-1">
+                                <span class="text-sm font-medium text-gray-300">Flutter</span>
+                                <span class="text-xs text-green-400">Proficient</span>
+                            </div>
+                            <div class="w-full bg-dark-900 rounded-full h-2">
+                                <div class="bg-green-400 h-2 rounded-full" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="flex justify-between mb-1">
+                                <span class="text-sm font-medium text-gray-300">Git & GitHub</span>
+                                <span class="text-xs text-green-400">Advanced</span>
+                            </div>
+                            <div class="w-full bg-dark-900 rounded-full h-2">
+                                <div class="bg-green-400 h-2 rounded-full" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="flex flex-wrap gap-2 mt-4">
+                            <span class="bg-dark-900 px-3 py-1 rounded text-xs text-gray-400 border border-gray-700">Firebase</span>
+                            <span class="bg-dark-900 px-3 py-1 rounded text-xs text-gray-400 border border-gray-700">MySQL</span>
+                            <span class="bg-dark-900 px-3 py-1 rounded text-xs text-gray-400 border border-gray-700">PostgreSQL</span>
+                            <span class="bg-dark-900 px-3 py-1 rounded text-xs text-gray-400 border border-gray-700">Windows Server</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-
-        <!-- Tab content -->
-        <div class="tab-content" id="skills-content">
-          <!-- Frontend Skills -->
-          <div class="tab-pane fade show active" id="frontend" role="tabpanel" aria-labelledby="frontend-tab">
-            <div class="row g-4">
-              <div class="col-md-4">
-                <div class="skill-card p-4 rounded shadow-sm h-100">
-                  <div class="d-flex align-items-center mb-3">
-                    <div class="skill-icon me-3 bg-light p-3 rounded">
-                      <i class="bi bi-filetype-html text-primary fs-3"></i>
-                    </div>
-                    <div>
-                      <h4 class="m-0 fs-5">HTML 5</h4>
-                      <div class="small text-muted">Advanced</div>
-                    </div>
-                  </div>
-                  <div class="progress" style="height: 8px;">
-                    <div class="progress-bar bg-primary" role="progressbar" style="width: 100%" aria-valuenow="100"
-                      aria-valuemin="0" aria-valuemax="100" aria-label="html-progress"></div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-4">
-                <div class="skill-card p-4 rounded shadow-sm h-100">
-                  <div class="d-flex align-items-center mb-3">
-                    <div class="skill-icon me-3 bg-light p-3 rounded">
-                      <i class="bi bi-filetype-css text-primary fs-3"></i>
-                    </div>
-                    <div>
-                      <h4 class="m-0 fs-5">CSS</h4>
-                      <div class="small text-muted">Advanced</div>
-                    </div>
-                  </div>
-                  <div class="progress" style="height: 8px;">
-                    <div class="progress-bar bg-primary" role="progressbar" style="width: 90%" aria-valuenow="90"
-                      aria-valuemin="0" aria-valuemax="100" aria-label="css-progress"></div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-4">
-                <div class="skill-card p-4 rounded shadow-sm h-100">
-                  <div class="d-flex align-items-center mb-3">
-                    <div class="skill-icon me-3 bg-light p-3 rounded">
-                      <i class="bi bi-bootstrap text-primary fs-3"></i>
-                    </div>
-                    <div>
-                      <h4 class="m-0 fs-5">Bootstrap</h4>
-                      <div class="small text-muted">Expert</div>
-                    </div>
-                  </div>
-                  <div class="progress" style="height: 8px;">
-                    <div class="progress-bar bg-primary" role="progressbar" style="width: 95%" aria-valuenow="95"
-                      aria-valuemin="0" aria-valuemax="100" aria-label="bs-progress"></div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-4">
-                <div class="skill-card p-4 rounded shadow-sm h-100">
-                  <div class="d-flex align-items-center mb-3">
-                    <div class="skill-icon me-3 bg-light p-3 rounded">
-                      <i class="bi bi-filetype-js text-primary fs-3"></i>
-                    </div>
-                    <div>
-                      <h4 class="m-0 fs-5">JavaScript</h4>
-                      <div class="small text-muted">Proficient</div>
-                    </div>
-                  </div>
-                  <div class="progress" style="height: 8px;">
-                    <div class="progress-bar bg-primary" role="progressbar" style="width: 75%" aria-valuenow="75"
-                      aria-valuemin="0" aria-valuemax="100" aria-label="js-progress"></div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-4">
-                <div class="skill-card p-4 rounded shadow-sm h-100">
-                  <div class="d-flex align-items-center mb-3">
-                    <div class="skill-icon me-3 bg-light p-3 rounded">
-                      <i class="bi bi-code-slash text-primary fs-3"></i>
-                    </div>
-                    <div>
-                      <h4 class="m-0 fs-5">jQuery</h4>
-                      <div class="small text-muted">Advanced</div>
-                    </div>
-                  </div>
-                  <div class="progress" style="height: 8px;">
-                    <div class="progress-bar bg-primary" role="progressbar" style="width: 85%" aria-valuenow="85"
-                      aria-valuemin="0" aria-valuemax="100" aria-label="jquery-progress"></div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- Backend Skills -->
-          <div class="tab-pane fade" id="backend" role="tabpanel" aria-labelledby="backend-tab">
-            <div class="row g-4">
-              <div class="col-md-4">
-                <div class="skill-card p-4 rounded shadow-sm h-100">
-                  <div class="d-flex align-items-center mb-3">
-                    <div class="skill-icon me-3 bg-light p-3 rounded">
-                      <i class="bi bi-filetype-py text-primary fs-3"></i>
-                    </div>
-                    <div>
-                      <h4 class="m-0 fs-5">Python</h4>
-                      <div class="small text-muted">Proficient</div>
-                    </div>
-                  </div>
-                  <div class="progress" style="height: 8px;">
-                    <div class="progress-bar bg-primary" role="progressbar" style="width: 70%" aria-valuenow="70"
-                      aria-valuemin="0" aria-valuemax="100" aria-label="python-progress"></div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-4">
-                <div class="skill-card p-4 rounded shadow-sm h-100">
-                  <div class="d-flex align-items-center mb-3">
-                    <div class="skill-icon me-3 bg-light p-3 rounded">
-                      <i class="bi bi-filetype-php text-primary fs-3"></i>
-                    </div>
-                    <div>
-                      <h4 class="m-0 fs-5">PHP</h4>
-                      <div class="small text-muted">Advanced</div>
-                    </div>
-                  </div>
-                  <div class="progress" style="height: 8px;">
-                    <div class="progress-bar bg-primary" role="progressbar" style="width: 80%" aria-valuenow="80"
-                      aria-valuemin="0" aria-valuemax="100" aria-label="php-progress"></div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-4">
-                <div class="skill-card p-4 rounded shadow-sm h-100">
-                  <div class="d-flex align-items-center mb-3">
-                    <div class="skill-icon me-3 bg-light p-3 rounded">
-                      <i class="bi bi-filetype-cs text-primary fs-3"></i>
-                    </div>
-                    <div>
-                      <h4 class="m-0 fs-5">C#</h4>
-                      <div class="small text-muted">Proficient</div>
-                    </div>
-                  </div>
-                  <div class="progress" style="height: 8px;">
-                    <div class="progress-bar bg-primary" role="progressbar" style="width: 70%" aria-valuenow="70"
-                      aria-valuemin="0" aria-valuemax="100" aria-label="csharp-progress"></div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-4">
-                <div class="skill-card p-4 rounded shadow-sm h-100">
-                  <div class="d-flex align-items-center mb-3">
-                    <div class="skill-icon me-3 bg-light p-3 rounded">
-                      <i class="bi bi-gem text-primary fs-3"></i>
-                    </div>
-                    <div>
-                      <h4 class="m-0 fs-5">Ruby</h4>
-                      <div class="small text-muted">Intermediate</div>
-                    </div>
-                  </div>
-                  <div class="progress" style="height: 8px;">
-                    <div class="progress-bar bg-primary" role="progressbar" style="width: 45%" aria-valuenow="45"
-                      aria-valuemin="0" aria-valuemax="100" aria-label="ruby-progress"></div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-4">
-                <div class="skill-card p-4 rounded shadow-sm h-100">
-                  <div class="d-flex align-items-center mb-3">
-                    <div class="skill-icon me-3 bg-light p-3 rounded">
-                      <i class="bi bi-code-square text-primary fs-3"></i>
-                    </div>
-                    <div>
-                      <h4 class="m-0 fs-5">C/C++</h4>
-                      <div class="small text-muted">Basic</div>
-                    </div>
-                  </div>
-                  <div class="progress" style="height: 8px;">
-                    <div class="progress-bar bg-primary" role="progressbar" style="width: 25%" aria-valuenow="25"
-                      aria-valuemin="0" aria-valuemax="100" aria-label="cpp-progress"></div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- Mobile Development -->
-          <div class="tab-pane fade" id="mobile" role="tabpanel" aria-labelledby="mobile-tab">
-            <div class="row g-4">
-              <div class="col-md-4">
-                <div class="skill-card p-4 rounded shadow-sm h-100">
-                  <div class="d-flex align-items-center mb-3">
-                    <div class="skill-icon me-3 bg-light p-3 rounded">
-                      <i class="bi bi-phone text-primary fs-3"></i>
-                    </div>
-                    <div>
-                      <h4 class="m-0 fs-5">Flutter</h4>
-                      <div class="small text-muted">Proficient</div>
-                    </div>
-                  </div>
-                  <div class="progress" style="height: 8px;">
-                    <div class="progress-bar bg-primary" role="progressbar" style="width: 70%" aria-valuenow="70"
-                      aria-valuemin="0" aria-valuemax="100" aria-label="flutter-progress"></div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- Frameworks -->
-          <div class="tab-pane fade" id="frameworks" role="tabpanel" aria-labelledby="frameworks-tab">
-            <div class="row g-4">
-              <div class="col-md-4">
-                <div class="skill-card p-4 rounded shadow-sm h-100">
-                  <div class="d-flex align-items-center mb-3">
-                    <div class="skill-icon me-3 bg-light p-3 rounded">
-                      <i class="bi bi-layers text-primary fs-3"></i>
-                    </div>
-                    <div>
-                      <h4 class="m-0 fs-5">Laravel</h4>
-                      <div class="small text-muted">Expert</div>
-                    </div>
-                  </div>
-                  <div class="progress" style="height: 8px;">
-                    <div class="progress-bar bg-primary" role="progressbar" style="width: 90%" aria-valuenow="90"
-                      aria-valuemin="0" aria-valuemax="100" aria-label="laravel-progress"></div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-4">
-                <div class="skill-card p-4 rounded shadow-sm h-100">
-                  <div class="d-flex align-items-center mb-3">
-                    <div class="skill-icon me-3 bg-light p-3 rounded">
-                      <i class="bi bi-diagram-3 text-primary fs-3"></i>
-                    </div>
-                    <div>
-                      <h4 class="m-0 fs-5">Django</h4>
-                      <div class="small text-muted">Proficient</div>
-                    </div>
-                  </div>
-                  <div class="progress" style="height: 8px;">
-                    <div class="progress-bar bg-primary" role="progressbar" style="width: 60%" aria-valuenow="60"
-                      aria-valuemin="0" aria-valuemax="100" aria-label="django-progress"></div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-4">
-                <div class="skill-card p-4 rounded shadow-sm h-100">
-                  <div class="d-flex align-items-center mb-3">
-                    <div class="skill-icon me-3 bg-light p-3 rounded">
-                      <i class="bi bi-code-slash text-primary fs-3"></i>
-                    </div>
-                    <div>
-                      <h4 class="m-0 fs-5">Vue.JS</h4>
-                      <div class="small text-muted">Basic</div>
-                    </div>
-                  </div>
-                  <div class="progress" style="height: 8px;">
-                    <div class="progress-bar bg-primary" role="progressbar" style="width: 30%" aria-valuenow="30"
-                      aria-valuemin="0" aria-valuemax="100" aria-label="vue-progress"></div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-4">
-                <div class="skill-card p-4 rounded shadow-sm h-100">
-                  <div class="d-flex align-items-center mb-3">
-                    <div class="skill-icon me-3 bg-light p-3 rounded">
-                      <i class="bi bi-bezier text-primary fs-3"></i>
-                    </div>
-                    <div>
-                      <h4 class="m-0 fs-5">Angular</h4>
-                      <div class="small text-muted">Basic</div>
-                    </div>
-                  </div>
-                  <div class="progress" style="height: 8px;">
-                    <div class="progress-bar bg-primary" role="progressbar" style="width: 30%" aria-valuenow="30"
-                      aria-valuemin="0" aria-valuemax="100" aria-label="angular-progress"></div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-4">
-                <div class="skill-card p-4 rounded shadow-sm h-100">
-                  <div class="d-flex align-items-center mb-3">
-                    <div class="skill-icon me-3 bg-light p-3 rounded">
-                      <i class="bi bi-braces text-primary fs-3"></i>
-                    </div>
-                    <div>
-                      <h4 class="m-0 fs-5">React</h4>
-                      <div class="small text-muted">Basic</div>
-                    </div>
-                  </div>
-                  <div class="progress" style="height: 8px;">
-                    <div class="progress-bar bg-primary" role="progressbar" style="width: 30%" aria-valuenow="30"
-                      aria-valuemin="0" aria-valuemax="100" aria-label="react-progress"></div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Skill Summary -->
-        <div class="row mt-5">
-          <div class="col-12 text-center">
-            <div class="p-4 bg-light rounded shadow-sm">
-              <h3 class="fs-5 mb-3">Continuous Growth Mindset</h3>
-              <p class="mb-0">
-                My skill set is continuously expanding as I embrace new technologies and methodologies.
-                I believe in practical application and learning by doing, which has allowed me to build robust solutions
-                across multiple platforms.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
     </section>
-    
-    <!-- Certificate Section -->
-    <section id="certificates" class="certificates section py-5">
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Professional Certifications</h2>
-        <p class="lead">
-          Credentials that validate my technical expertise and commitment to continuous professional development.
-        </p>
-      </div>
-      <!-- End Section Title -->
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-        <!-- Certificate Filters -->
-        <div class="row mb-5">
-          <div class="col-12 text-center">
-            <div class="certificate-filters" data-aos="fade-up" data-aos-delay="100">
-              <button class="btn btn-outline-primary rounded-pill px-4 py-2 m-2 active" data-filter="*">All
-                Certifications</button>
-              <button class="btn btn-outline-primary rounded-pill px-4 py-2 m-2"
-                data-filter=".filter-freecodecamp">freeCodeCamp</button>
-              <button class="btn btn-outline-primary rounded-pill px-4 py-2 m-2"
-                data-filter=".filter-university">University</button>
-              <button class="btn btn-outline-primary rounded-pill px-4 py-2 m-2"
-                data-filter=".filter-microsoft">Microsoft</button>
-              <button class="btn btn-outline-primary rounded-pill px-4 py-2 m-2"
-                data-filter=".filter-sololearn">Sololearn</button>
-            </div>
-          </div>
-        </div>
-        <!-- Certificates Grid -->
-        <div class="row g-4 certificates-container">
-          <!-- Certificate Item - C# -->
-          <div class="col-lg-4 col-md-6 certificate-item filter-freecodecamp filter-microsoft">
-            <div class="card h-100 border-0 shadow-sm">
-              <div class="certificate-image position-relative overflow-hidden">
-                <img
-                  src="https://cdn.jsdelivr.net/gh/akilama471/akilama471.github.io@main/assets/img/certificate/freecodecamp-csharp.webp"
-                  loading="lazy" class="card-img-top" alt="C# Certification" width="321" height="321">
-                <div class="certificate-overlay">
-                  <div class="certificate-actions">
-                    <a href="https://www.freecodecamp.org/certification/akilama471/foundational-c-sharp-with-microsoft"
-                      class="btn btn-light btn-sm rounded-circle" target="_blank" title="Verify Certificate"
-                      aria-label="freecodecamp-csharp-certificate">
-                      <i class="bi bi-link-45deg"></i>
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <div class="card-body p-4">
-                <div class="d-flex justify-content-between align-items-center mb-2">
-                  <span class="badge bg-primary">freeCodeCamp</span>
-                  <span class="badge bg-secondary">Microsoft</span>
-                </div>
-                <h4 class="card-title">Foundational C# with Microsoft</h5>
-                  <p class="card-text text-muted small">Comprehensive training in C# programming fundamentals, covering
-                    object-oriented concepts, data structures, and application development using Microsoft's framework.
-                  </p>
-              </div>
-              <div class="card-footer bg-white border-0 pt-0">
-                <div class="d-flex align-items-center text-muted small">
-                  <i class="bi bi-calendar-check me-2"></i>
-                  <span>Issued 2023</span>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- Certificate Item - Responsive Web Design -->
-          <div class="col-lg-4 col-md-6 certificate-item filter-freecodecamp">
-            <div class="card h-100 border-0 shadow-sm">
-              <div class="certificate-image position-relative overflow-hidden">
-                <img
-                  src="https://cdn.jsdelivr.net/gh/akilama471/akilama471.github.io@main/assets/img/certificate/freecodecamp-responsive-web-design.webp"
-                  loading="lazy" class="card-img-top" alt="Responsive Web Design Certification" width="321"
-                  height="321">
-                <div class=" certificate-overlay">
-                  <div class="certificate-actions">
-                    <a href="https://www.freecodecamp.org/certification/akilama471/responsive-web-design"
-                      class="btn btn-light btn-sm rounded-circle" target="_blank" title="Verify Certificate"
-                      aria-label="freecodecamp-web-design-certificate">
-                      <i class="bi bi-link-45deg"></i>
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <div class="card-body p-4">
-                <div class="d-flex justify-content-between align-items-center mb-2">
-                  <span class="badge bg-primary">freeCodeCamp</span>
-                </div>
-                <h4 class="card-title">Responsive Web Design</h5>
-                  <p class="card-text text-muted small">Mastery of HTML, CSS, and responsive design principles for
-                    creating web applications that adapt seamlessly across all device sizes and screen resolutions.</p>
-              </div>
-              <div class="card-footer bg-white border-0 pt-0">
-                <div class="d-flex align-items-center text-muted small">
-                  <i class="bi bi-calendar-check me-2"></i>
-                  <span>Issued 2022</span>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- Certificate Item - Python -->
-          <div class="col-lg-4 col-md-6 certificate-item filter-university">
-            <div class="card h-100 border-0 shadow-sm">
-              <div class="certificate-image position-relative overflow-hidden">
-                <img
-                  src="https://cdn.jsdelivr.net/gh/akilama471/akilama471.github.io@main/assets/img/certificate/uom-python-1.webp"
-                  loading="lazy" class="card-img-top" alt="Python Certification" width="321" height="321">
-                <div class=" certificate-overlay">
-                  <div class="certificate-actions">
-                    <a href="https://open.uom.lk/lms/mod/customcert/view.php?id=675&downloadown=1"
-                      class="btn btn-light btn-sm rounded-circle" target="_blank" title="Verify Certificate"
-                      aria-label="university-of-moratuwa-certificate">
-                      <i class="bi bi-link-45deg"></i>
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <div class="card-body p-4">
-                <div class="d-flex justify-content-between align-items-center mb-2">
-                  <span class="badge bg-success">University of Moratuwa</span>
-                </div>
-                <h4 class="card-title">Python Programming - Level 1</h5>
-                  <p class="card-text text-muted small">Foundation course in Python programming from a leading Sri
-                    Lankan
-                    university, covering syntax, data structures, algorithmic thinking, and practical application
-                    development.</p>
-              </div>
-              <div class="card-footer bg-white border-0 pt-0">
-                <div class="d-flex align-items-center text-muted small">
-                  <i class="bi bi-calendar-check me-2"></i>
-                  <span>Issued 2021</span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- Additional Information -->
-        <div class="row mt-5">
-          <div class="col-12">
-            <div class="p-4 bg-light rounded shadow-sm text-center">
-              <h4 class="fs-5 mb-3">Continuous Professional Development</h4>
-              <p class="mb-0">
-                These certifications represent milestones in my ongoing journey of professional development.
-                I regularly engage in online courses, technical workshops, and industry certifications to stay
-                current with emerging technologies and best practices.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    
-    <!-- Projects Section -->
-    <section id="projects" class="portfolio section">
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Portfolio Showcase</h2>
-        <p>
-          Explore my curated collection of enterprise-grade solutions developed throughout my professional career.
-          Each project demonstrates my technical expertise, problem-solving capabilities, and commitment to delivering
-          high-quality software that addresses real business challenges.
-        </p>
-      </div>
-      <!-- End Section Title -->
 
-      <div class="container">
-        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
-
-          <ul class="nav nav-pills justify-content-center mb-4 isotope-filters" role="tablist" data-aos="fade-up"
-            data-aos-delay="100">
-            <li class="nav-item mx-2 filter-active" role="presentation" data-filter="*">
-              <button class="nav-link active px-4 py-2" type="button" role="tab" aria-selected="true">All
-                Projects</button>
-            </li>
-            <li class="nav-item mx-2" role="presentation" data-filter=".filter-web-system">
-              <button class="nav-link px-4 py-2" data-bs-toggle="pill" type="button" role="tab"
-                aria-selected="false">Web Systems</button>
-            </li>
-            <li class="nav-item mx-2" role="presentation" data-filter=".filter-mobile-app">
-              <button class="nav-link px-4 py-2" data-bs-toggle="pill" type="button" role="tab"
-                aria-selected="false">Mobile App</button>
-            </li>
-            <li class="nav-item mx-2" role="presentation" data-filter=".filter-desktop-app">
-              <button class="nav-link px-4 py-2" data-bs-toggle="pill" type="button" role="tab"
-                aria-selected="false">Desktop App</button>
-            </li>
-            <li class="nav-item mx-2" role="presentation" data-filter=".filter-games">
-              <button class="nav-link px-4 py-2" data-bs-toggle="pill" type="button" role="tab"
-                aria-selected="false">Games</button>
-            </li>
-          </ul>
-          <!-- End Portfolio Filters -->
-
-          <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
-            <!-- Laravel Project 1 -->
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-web-system">
-              <div class="portfolio-content h-100">
-                <img
-                  src="https://cdn.jsdelivr.net/gh/akilama471/akilama471.github.io@main/assets/img/projects/laravel.webp"
-                  loading="lazy" class="img-fluid" alt="Web based POS System" />
-                <div class="portfolio-info">
-                  <a href="project-details-web-pos.html" aria-label="project-details-web-pos-section">
-                    <h4>Enterprise POS Solution</h4>
-                    <p class="project-description">A comprehensive point-of-sale ecosystem for mobile retailers with
-                      advanced inventory management, sales analytics, and customer relationship tools that increased
-                      operational efficiency by 35%.</p>
-                    <div class="tech-stack">
-                      <span>Laravel</span>
-                      <span>MySQL</span>
-                      <span>Bootstrap</span>
-                      <span>Flutter</span>
-                      <span>RESTful API</span>
-                    </div>
-                  </a>
-                </div>
-              </div>
-            </div>
-
-            <!-- Flutter Project 1 -->
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-mobile-app">
-              <div class="portfolio-content h-100">
-                <img
-                  src="https://cdn.jsdelivr.net/gh/akilama471/akilama471.github.io@main/assets/img/projects/flutter.webp"
-                  loading="lazy" class="img-fluid" alt="Network Repair Management App" />
-                <div class="portfolio-info">
-                  <a href="project-details-telecom-fsp.html" aria-label="project-details-telecom-fsp-section">
-                    <h4>Telecom Field Service Platform</h4>
-                    <p class="project-description">A cross-platform mobile solution that revolutionized
-                      telecommunications
-                      field service operations by optimizing technician dispatching and reducing issue resolution time
-                      by
-                      42%.</p>
-                    <div class="tech-stack">
-                      <span>Flutter</span>
-                      <span>Firebase</span>
-                      <span>REST API</span>
-                      <span>Google Maps</span>
-                    </div>
-                  </a>
-                </div>
-              </div>
-            </div>
-
-            <!-- Laravel Project 2 -->
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-web-system">
-              <div class="portfolio-content h-100">
-                <img
-                  src="https://cdn.jsdelivr.net/gh/akilama471/akilama471.github.io@main/assets/img/projects/laravel.webp"
-                  loading="lazy" class="img-fluid" alt="CRM System" />
-                <div class="portfolio-info">
-                  <a href="project-details-dcf-crm.html" aria-label="project-details-dcf-crm-section">
-                    <h4>Integrated CRM Ecosystem</h4>
-                    <p class="project-description">A scalable customer relationship management solution featuring
-                      automated lead nurturing, pipeline visualization, and business intelligence reporting that
-                      increased
-                      sales conversion by 28%.</p>
-                    <div class="tech-stack">
-                      <span>Laravel</span>
-                      <span>Vue.js</span>
-                      <span>PostgreSQL</span>
-                      <span>AWS</span>
-                    </div>
-                  </a>
-                </div>
-              </div>
-            </div>
-
-            <!-- C# Project -->
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-desktop-app">
-              <div class="portfolio-content h-100">
-                <img
-                  src="https://cdn.jsdelivr.net/gh/akilama471/akilama471.github.io@main/assets/img/projects/csharp.webp"
-                  loading="lazy" class="img-fluid" alt="Retail Management System" />
-                <div class="portfolio-info">
-                  <a href="project-details-retail-management.html"
-                    aria-label="project-details-retail-management-section">
-                    <h4>Retail Operations Suite</h4>
-                    <p class="project-description">A high-performance desktop application enabling comprehensive retail
-                      management with real-time inventory synchronization, predictive analytics, and integrated supply
-                      chain monitoring.</p>
-                    <div class="tech-stack">
-                      <span>C#</span>
-                      <span>.NET Framework</span>
-                      <span>SQL Server</span>
-                      <span>MVVM</span>
-                    </div>
-                  </a>
-                </div>
-              </div>
-            </div>
-
-            <!-- Laravel Project 3 -->
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-web-system">
-              <div class="portfolio-content h-100">
-                <img
-                  src="https://cdn.jsdelivr.net/gh/akilama471/akilama471.github.io@main/assets/img/projects/laravel.webp"
-                  loading="lazy" class="img-fluid" alt="HR Management System" />
-                <div class="portfolio-info">
-                  <a href="project-details-nas-hr.html" aria-label="project-details-nas-hr-section">
-                    <h4>Workforce Optimization Platform</h4>
-                    <p class="project-description">An enterprise HR solution featuring AI-driven scheduling algorithms,
-                      performance analytics, and labor forecasting that reduced scheduling conflicts by 64% and
-                      optimized
-                      resource allocation.</p>
-                    <div class="tech-stack">
-                      <span>Laravel</span>
-                      <span>jQuery</span>
-                      <span>Chart.js</span>
-                      <span>Redis</span>
-                    </div>
-                  </a>
-                </div>
-              </div>
-            </div>
-
-            <!-- Flutter Project 2 -->
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-mobile-app">
-              <div class="portfolio-content h-100">
-                <img
-                  src="https://cdn.jsdelivr.net/gh/akilama471/akilama471.github.io@main/assets/img/projects/flutter.webp"
-                  loading="lazy" class="img-fluid" alt="Restaurant Management App" />
-                <div class="portfolio-info">
-                  <a href="project-details-restaurant-management.html"
-                    aria-label="project-details-restaurant-management-section">
-                    <h4>Restaurant Management Ecosystem</h4>
-                    <p class="project-description">A comprehensive food service platform featuring real-time order
-                      processing, delivery logistics optimization, and integrated payment processing that increased
-                      order
-                      throughput by 53%.</p>
-                    <div class="tech-stack">
-                      <span>Flutter</span>
-                      <span>Firebase</span>
-                      <span>Google Maps API</span>
-                      <span>Stripe</span>
-                    </div>
-                  </a>
-                </div>
-              </div>
-            </div>
-
-            <!-- Laravel Project 4 -->
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-web-system">
-              <div class="portfolio-content h-100">
-                <img
-                  src="https://cdn.jsdelivr.net/gh/akilama471/akilama471.github.io@main/assets/img/projects/laravel.webp"
-                  loading="lazy" class="img-fluid" alt="Church Management System" />
-                <div class="portfolio-info">
-                  <a href="project-details-church-management.html"
-                    aria-label="project-details-church-management-section">
-                    <h4>Faith Community Management System</h4>
-                    <p class="project-description">A comprehensive engagement platform for religious organizations
-                      featuring member relationship management, event coordination, secure donation processing, and
-                      multi-campus resource allocation.</p>
-                    <div class="tech-stack">
-                      <span>Laravel</span>
-                      <span>Blade</span>
-                      <span>MySQL</span>
-                      <span>PayPal API</span>
-                    </div>
-                  </a>
-                </div>
-              </div>
-            </div>
-            <!-- End Portfolio Item -->
-          </div>
-          <!-- End Portfolio Container -->
-        </div>
-      </div>
-    </section>
-    
-    <!-- Resume Section -->
-    <section id="resume" class="resume section">
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Resume</h2>
-        <p>
-          Experienced developer with a passion for web and mobile development. Skilled in various programming languages
-          and frameworks with a strong foundation in self-directed learning and technical problem-solving.
-        </p>
-      </div>
-      <!-- End Section Title -->
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-            <h3 class="resume-title">Summary</h3>
-            <div class="resume-item pb-0">
-              <h4>Akila Madhushanka</h4>
-              <p>
-                <em>Self-taught programmer and developer with multiple years of experience in web and mobile application
-                  development, continuously expanding knowledge through various online learning platforms.</em>
-              </p>
-              <ul>
-                <li>School Junction, Minuwangate, Wariyapola - 60400, Sri Lanka</li>
-                <li><a href="tel:94701108494">+94 70 110 8494</a></li>
-                <li><a href="mailto:developer.akila5@gmail.com">developer.akila5@gmail.com</a></li>
-              </ul>
-            </div>
-            <!-- End Resume Item -->
-            <h3 class="resume-title">Education</h3>
-            <div class="resume-item">
-              <h4>GCE O/L</h4>
-              <h5>2016</h5>
-              <p><em>Minuwangete Maha Vidyalaya - Sri Lanka</em></p>
-            </div>
-            <!-- End Resume Item -->
-            <div class="resume-item">
-              <h4>GCE A/L</h4>
-              <h5>2019</h5>
-              <p><em>Ku/ Udabadalawa Sudarshana Maha Vidyalaya - Sri Lanka</em></p>
-            </div>
-            <!-- End Resume Item -->
-            <div class="resume-item">
-              <h4>Freecodecamp</h4>
-              <h5>2017 - Present</h5>
-              <p><em>Web Development | Data Structures | Machine Learning</em></p>
-            </div>
-            <!-- End Resume Item -->
-            <div class="resume-item">
-              <h4>Google Developer Platform</h4>
-              <h5>2019 - Present</h5>
-              <p><em>Flutter Development</em></p>
-            </div>
-            <!-- End Resume Item -->
-            <div class="resume-item">
-              <h4>Sololearn Academy</h4>
-              <h5>2021 - Present</h5>
-              <p><em>HTML | CSS | JavaScript | Python | Go | Ruby | R | C#</em></p>
-            </div>
-            <!-- End Resume Item -->
-            <div class="resume-item">
-              <h4>Microsoft Learn Platform</h4>
-              <h5>2022 - Present</h5>
-              <p><em>Windows Server | Visual Studio | Powershell</em></p>
-            </div>
-            <!-- End Resume Item -->
-            <div class="resume-item">
-              <h4>UoM - Open Learning Platform</h4>
-              <h5>2022 - Present</h5>
-              <p><em>Web Development | Python</em></p>
-            </div>
-            <!-- End Resume Item -->
-          </div>
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
-            <h3 class="resume-title">Professional Experience</h3>
-            <div class="resume-item">
-              <h4>Web Developer - <a href="https://nextgenware.github.io" target="_blank"><strong>NextGenWare</strong></a></h4>
-              <h5>2020 - Present</h5>
-              <p><em>Self-employed</em></p>
-              <ul>
-                <li>Design and develop responsive websites for various clients using HTML, CSS, and JavaScript</li>
-                <li>Create and implement user-friendly interfaces with focus on accessibility and performance</li>
-                <li>Collaborate with clients to understand requirements and deliver customized solutions</li>
-                <li>Maintain and update existing websites to ensure optimal functionality</li>
-              </ul>
-            </div>
-            <!-- End Resume Item -->
-            <div class="resume-item">
-              <h4>Mobile App Developer - <a href="https://nextgenware.github.io" target="_blank"><strong>NextGenWare</strong></a></h4>
-              <h5>2019 - Present</h5>
-              <p><em>Freelance Projects</em></p>
-              <ul>
-                <li>Develop cross-platform mobile applications using Flutter framework</li>
-                <li>Implement responsive designs and efficient backend integrations</li>
-                <li>Test applications across multiple devices to ensure compatibility</li>
-                <li>Publish applications to Google Play Store and Apple App Store</li>
-              </ul>
-            </div>
-            <!-- End Resume Item -->
-            <h3 class="resume-title">Skills</h3>
-            <div class="resume-item">
-              <h4>Programming Languages</h4>
-              <ul>
-                <li>HTML, CSS, JavaScript</li>
-                <li>Python, R, Ruby</li>
-                <li>Go, C#</li>
-                <li>Dart (Flutter)</li>
-              </ul>
-            </div>
-            <!-- End Resume Item -->
-            <div class="resume-item">
-              <h4>Tools & Technologies</h4>
-              <ul>
-                <li>Git & GitHub</li>
-                <li>Visual Studio Code</li>
-                <li>Flutter Development</li>
-                <li>Responsive Web Design</li>
-                <li>Windows Server Administration</li>
-              </ul>
-            </div>
-            <!-- End Resume Item -->
-          </div>
-        </div>
-      </div>
-    </section>
-    
     <!-- Services Section -->
-    <section id="services" class="services section">
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Services</h2>
-        <p>
-          As a Full Stack Developer, I deliver comprehensive technical solutions tailored to meet your business needs.
-          My expertise spans web, mobile, and desktop application development, complemented by digital marketing
-          capabilities.
-          I combine technical precision with business acumen to create scalable, high-performance solutions that drive
-          your business forward.
-        </p>
-      </div>
-      <!-- End Section Title -->
-      <div class="container">
-        <div class="row gy-4">
-          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="100">
-            <div class="icon flex-shrink-0">
-              <i class="bi bi-briefcase"></i>
+    <section id="services" class="py-20 bg-dark-800/50">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16" data-aos="fade-up">
+                <h2 class="text-3xl md:text-4xl font-bold text-white mb-4">What I Do</h2>
+                <div class="w-20 h-1 bg-primary mx-auto rounded-full"></div>
             </div>
-            <div>
-              <h4 class="title">
-                <a href="service-details.html" class="stretched-link"
-                  aria-label="custom-web-based-business-solutions">Custom Web-Based Business Solutions</a>
-              </h4>
-              <p class="description">
-                Bespoke web applications designed specifically for your business processes, enhancing efficiency
-                and providing tailored functionality that off-the-shelf solutions cannot match.
-              </p>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <!-- Service 1 -->
+                <div class="bg-dark-900 p-6 rounded-xl border border-gray-700 hover:border-primary transition-all group" data-aos="fade-up" data-aos-delay="0">
+                    <div class="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4 group-hover:bg-primary/20 transition-colors">
+                        <i class="fas fa-globe text-primary text-xl"></i>
+                    </div>
+                    <h3 class="text-lg font-bold text-white mb-2">Web Solutions</h3>
+                    <p class="text-sm text-gray-400">Custom business web apps tailored for efficiency and scalability using Laravel & Vue.</p>
+                </div>
+
+                <!-- Service 2 -->
+                <div class="bg-dark-900 p-6 rounded-xl border border-gray-700 hover:border-primary transition-all group" data-aos="fade-up" data-aos-delay="100">
+                    <div class="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4 group-hover:bg-primary/20 transition-colors">
+                        <i class="fas fa-mobile-screen text-primary text-xl"></i>
+                    </div>
+                    <h3 class="text-lg font-bold text-white mb-2">Mobile Apps</h3>
+                    <p class="text-sm text-gray-400">Cross-platform mobile applications with Flutter for iOS and Android.</p>
+                </div>
+
+                <!-- Service 3 -->
+                <div class="bg-dark-900 p-6 rounded-xl border border-gray-700 hover:border-primary transition-all group" data-aos="fade-up" data-aos-delay="200">
+                    <div class="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4 group-hover:bg-primary/20 transition-colors">
+                        <i class="fas fa-desktop text-primary text-xl"></i>
+                    </div>
+                    <h3 class="text-lg font-bold text-white mb-2">Desktop Apps</h3>
+                    <p class="text-sm text-gray-400">High-performance desktop software for internal workflow optimization.</p>
+                </div>
+
+                <!-- Service 4 -->
+                <div class="bg-dark-900 p-6 rounded-xl border border-gray-700 hover:border-primary transition-all group" data-aos="fade-up" data-aos-delay="300">
+                    <div class="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4 group-hover:bg-primary/20 transition-colors">
+                        <i class="fas fa-chart-line text-primary text-xl"></i>
+                    </div>
+                    <h3 class="text-lg font-bold text-white mb-2">Data & SEO</h3>
+                    <p class="text-sm text-gray-400">Analytics dashboards and SEO strategies to improve visibility and decisions.</p>
+                </div>
             </div>
-          </div>
-          <!-- End Service Item -->
-          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="200">
-            <div class="icon flex-shrink-0">
-              <i class="bi bi-phone"></i>
-            </div>
-            <div>
-              <h4 class="title">
-                <a href="service-details.html" class="stretched-link" aria-label="mobile-applications-solutions">Mobile
-                  Applications</a>
-              </h4>
-              <p class="description">
-                Native and cross-platform mobile applications with intuitive interfaces and robust backend
-                integration, delivering seamless user experiences across iOS and Android devices.
-              </p>
-            </div>
-          </div>
-          <!-- End Service Item -->
-          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="300">
-            <div class="icon flex-shrink-0">
-              <i class="bi bi-pc-display"></i>
-            </div>
-            <div>
-              <h4 class="title">
-                <a href="service-details.html" class="stretched-link"
-                  aria-label="desktop-applications-solutions">Desktop Applications</a>
-              </h4>
-              <p class="description">
-                Powerful, responsive desktop software solutions that optimize internal workflows and
-                provide enterprise-grade functionality with modern, user-friendly interfaces.
-              </p>
-            </div>
-          </div>
-          <!-- End Service Item -->
-          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="400">
-            <div class="icon flex-shrink-0">
-              <i class="bi bi-people"></i>
-            </div>
-            <div>
-              <h4 class="title">
-                <a href="service-details.html" class="stretched-link" aria-label="social-media-solutions">Social Media
-                  Management</a>
-              </h4>
-              <p class="description">
-                Strategic social media presence development including content planning, community engagement,
-                and analytics to build your brand and drive meaningful customer connections.
-              </p>
-            </div>
-          </div>
-          <!-- End Service Item -->
-          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="500">
-            <div class="icon flex-shrink-0">
-              <i class="bi bi-brightness-high"></i>
-            </div>
-            <div>
-              <h4 class="title">
-                <a href="service-details.html" class="stretched-link" aria-label="branding-solutions">Brand
-                  Development</a>
-              </h4>
-              <p class="description">
-                Cohesive brand identity creation including digital assets, style guides, and consistent
-                implementation across all platforms to establish your unique market presence.
-              </p>
-            </div>
-          </div>
-          <!-- End Service Item -->
-          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="600">
-            <div class="icon flex-shrink-0">
-              <i class="bi bi-search"></i>
-            </div>
-            <div>
-              <h4 class="title">
-                <a href="service-details.html" class="stretched-link" aria-label="seo-solutions">SEO</a>
-              </h4>
-              <p class="description">
-                Technical and content optimization to improve search engine visibility, incorporating
-                best practices in on-page optimization, performance tuning, and content strategy.
-              </p>
-            </div>
-          </div>
-          <!-- End Service Item -->
-          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="700">
-            <div class="icon flex-shrink-0">
-              <i class="bi bi-arrow-repeat"></i>
-            </div>
-            <div>
-              <h4 class="title">
-                <a href="service-details.html" class="stretched-link" aria-label="digital-transformation">Digital
-                  Transformation</a>
-              </h4>
-              <p class="description">
-                End-to-end digitization of business processes and legacy systems, creating interconnected
-                digital ecosystems that enhance operational efficiency and customer experience.
-              </p>
-            </div>
-          </div>
-          <!-- End Service Item -->
-          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="800">
-            <div class="icon flex-shrink-0">
-              <i class="bi bi-bar-chart"></i>
-            </div>
-            <div>
-              <h4 class="title">
-                <a href="service-details.html" class="stretched-link" aria-label="data-analytics">Data Analytics</a>
-              </h4>
-              <p class="description">
-                Development of custom analytics solutions, dashboards, and reporting tools that transform
-                raw data into actionable business intelligence for informed decision-making.
-              </p>
-            </div>
-          </div>
-          <!-- End Service Item -->
         </div>
-      </div>
     </section>
 
-    <!-- NextGenWare Section -->
-    <section id="nextgenware" class="nextgenware section py-5">
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>NextGenWare</h2>
-        <p class="lead">
-          Empowering businesses with cutting-edge software solutions through innovation and expertise.
-        </p>
-      </div>
-      <!-- End Section Title -->
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-        <div class="row gy-4 justify-content-center">
-          <div class="col-lg-4 position-relative">
-            <img src="https://cdn.jsdelivr.net/gh/akilama471/akilama471.github.io@main/assets/img/nextgenware.png" class="img-fluid rounded shadow-lg" alt="NextGenWare Logo" width="416" height="416" />
-            <div class="experience-badge position-absolute bg-primary text-white py-2 px-3 rounded-pill shadow" style="top: 15px; right: 15px;">
-              Innovative Solutions
+    <!-- Projects Section -->
+    <section id="projects" class="py-20">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-col md:flex-row justify-between items-end mb-12" data-aos="fade-up">
+                <div>
+                    <h2 class="text-3xl md:text-4xl font-bold text-white mb-2">Featured Projects</h2>
+                    <p class="text-gray-400">A selection of enterprise-grade solutions.</p>
+                </div>
+                <a href="https://github.com/akilama471" target="_blank" class="hidden md:inline-flex items-center text-primary hover:text-white transition-colors mt-4 md:mt-0">
+                    View all on GitHub <i class="fas fa-arrow-right ml-2"></i>
+                </a>
             </div>
-          </div>
-          <div class="col-lg-8 content">
-            <h2 class="mb-4">NextGenWare: Pioneering Digital Transformation</h2>
-            <p class="mb-4">
-              NextGenWare is my startup dedicated to delivering innovative, scalable, and user-focused software solutions. Based in Sri Lanka, we specialize in crafting custom web, mobile, and desktop applications that empower businesses to achieve their goals efficiently. Our mission is to bridge the gap between technology and business success by leveraging modern frameworks and cloud solutions.
-            </p>
-            <p class="mb-4">
-              At NextGenWare, we combine technical expertise with a client-centric approach, ensuring every project aligns with your vision and delivers measurable results. From startups to enterprises, we provide tailored solutions that drive growth, streamline operations, and enhance user experiences.
-            </p>
-            <div class="row mt-5">
-              <div class="col-lg-6">
-                <h3 class="fs-5 mb-3">Company Details</h3>
-                <ul class="list-unstyled">
-                  <li class="mb-2">
-                    <i class="bi bi-building me-2 text-primary"></i>
-                    <strong>Founded:</strong> <span>2020</span>
-                  </li>
-                  <li class="mb-2">
-                    <i class="bi bi-geo-alt me-2 text-primary"></i>
-                    <strong>Location:</strong> <span>Wariyapola, Sri Lanka</span>
-                  </li>
-                  <li class="mb-2">
-                    <i class="bi bi-globe me-2 text-primary"></i>
-                    <strong>Website:</strong>
-                    <a href="https://nextgenware.github.io" class="text-decoration-none" target="_blank" aria-label="nextgenware-website">nextgenware.github.io</a>
-                  </li>
-                  <li class="mb-2">
-                    <i class="bi bi-briefcase me-2 text-primary"></i>
-                    <strong>Focus:</strong> <span>Web, Mobile, and Cloud Solutions</span>
-                  </li>
-                </ul>
-              </div>
-              <div class="col-lg-6">
-                <h3 class="fs-5 mb-3">Our Services</h3>
-                <ul class="list-unstyled">
-                  <li class="mb-2">
-                    <i class="bi bi-code-slash me-2 text-primary"></i>
-                    <strong>Custom Software Development:</strong> <span>Building tailored applications with Laravel, Flutter, and more.</span>
-                  </li>
-                  <li class="mb-2">
-                    <i class="bi bi-cloud me-2 text-primary"></i>
-                    <strong>Cloud Integration:</strong> <span>Scalable solutions using AWS, Firebase, and other platforms.</span>
-                  </li>
-                  <li class="mb-2">
-                    <i class="bi bi-graph-up me-2 text-primary"></i>
-                    <strong>Digital Optimization:</strong> <span>Enhancing business processes with analytics and automation.</span>
-                  </li>
-                  <li class="mb-2">
-                    <i class="bi bi-headset me-2 text-primary"></i>
-                    <strong>Consulting & Support:</strong> <span>Expert guidance and ongoing maintenance for your projects.</span>
-                  </li>
-                </ul>
-              </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                
+                <!-- Project 1 -->
+                <div class="group relative rounded-xl overflow-hidden bg-dark-800 border border-gray-700 hover:shadow-2xl hover:shadow-primary/10 transition-all duration-300" data-aos="fade-up">
+                    <div class="h-48 overflow-hidden relative">
+                         <div class="absolute inset-0 bg-gradient-to-t from-dark-900 to-transparent opacity-60 z-10"></div>
+                        <img src="https://cdn.jsdelivr.net/gh/akilama471/akilama471.github.io@main/assets/img/projects/laravel.webp" alt="POS System" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                    </div>
+                    <div class="p-6 relative z-20">
+                        <div class="flex gap-2 mb-3">
+                            <span class="text-xs px-2 py-1 rounded bg-primary/10 text-primary">Laravel</span>
+                            <span class="text-xs px-2 py-1 rounded bg-blue-500/10 text-blue-400">Flutter</span>
+                        </div>
+                        <h3 class="text-xl font-bold text-white mb-2 group-hover:text-primary transition-colors">Enterprise POS Solution</h3>
+                        <p class="text-sm text-gray-400 mb-4 line-clamp-3">Comprehensive ecosystem with inventory management, sales analytics, and CRM tools. Increased efficiency by 35%.</p>
+                        <a href="#" class="text-sm font-semibold text-white flex items-center gap-1 group/link">
+                            View Details <i class="fas fa-chevron-right text-xs group-hover/link:translate-x-1 transition-transform"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="group relative rounded-xl overflow-hidden bg-dark-800 border border-gray-700 hover:shadow-2xl hover:shadow-primary/10 transition-all duration-300" data-aos="fade-up" data-aos-delay="100">
+                    <div class="h-48 overflow-hidden relative">
+                        <div class="absolute inset-0 bg-gradient-to-t from-dark-900 to-transparent opacity-60 z-10"></div>
+                        <img src="https://cdn.jsdelivr.net/gh/akilama471/akilama471.github.io@main/assets/img/projects/flutter.webp" alt="Telecom App" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                    </div>
+                    <div class="p-6 relative z-20">
+                        <div class="flex gap-2 mb-3">
+                            <span class="text-xs px-2 py-1 rounded bg-green-400/10 text-green-400">Flutter</span>
+                            <span class="text-xs px-2 py-1 rounded bg-yellow-500/10 text-yellow-400">Firebase</span>
+                        </div>
+                        <h3 class="text-xl font-bold text-white mb-2 group-hover:text-primary transition-colors">Telecom Field Service</h3>
+                        <p class="text-sm text-gray-400 mb-4 line-clamp-3">Cross-platform mobile solution optimizing technician dispatching and reducing resolution time by 42%.</p>
+                        <a href="#" class="text-sm font-semibold text-white flex items-center gap-1 group/link">
+                            View Details <i class="fas fa-chevron-right text-xs group-hover/link:translate-x-1 transition-transform"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="group relative rounded-xl overflow-hidden bg-dark-800 border border-gray-700 hover:shadow-2xl hover:shadow-primary/10 transition-all duration-300" data-aos="fade-up" data-aos-delay="200">
+                    <div class="h-48 overflow-hidden relative">
+                        <div class="absolute inset-0 bg-gradient-to-t from-dark-900 to-transparent opacity-60 z-10"></div>
+                        <img src="https://cdn.jsdelivr.net/gh/akilama471/akilama471.github.io@main/assets/img/projects/laravel.webp" alt="CRM System" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                    </div>
+                    <div class="p-6 relative z-20">
+                        <div class="flex gap-2 mb-3">
+                            <span class="text-xs px-2 py-1 rounded bg-primary/10 text-primary">Laravel</span>
+                            <span class="text-xs px-2 py-1 rounded bg-purple-500/10 text-purple-400">Vue.js</span>
+                        </div>
+                        <h3 class="text-xl font-bold text-white mb-2 group-hover:text-primary transition-colors">Integrated CRM</h3>
+                        <p class="text-sm text-gray-400 mb-4 line-clamp-3">Automated lead nurturing and pipeline visualization system that increased sales conversion by 28%.</p>
+                        <a href="#" class="text-sm font-semibold text-white flex items-center gap-1 group/link">
+                            View Details <i class="fas fa-chevron-right text-xs group-hover/link:translate-x-1 transition-transform"></i>
+                        </a>
+                    </div>
+                </div>
+
+                 <!-- Project 4 -->
+                 <div class="group relative rounded-xl overflow-hidden bg-dark-800 border border-gray-700 hover:shadow-2xl hover:shadow-primary/10 transition-all duration-300" data-aos="fade-up">
+                    <div class="h-48 overflow-hidden relative">
+                         <div class="absolute inset-0 bg-gradient-to-t from-dark-900 to-transparent opacity-60 z-10"></div>
+                        <img src="https://cdn.jsdelivr.net/gh/akilama471/akilama471.github.io@main/assets/img/projects/csharp.webp" alt="Retail Management" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                    </div>
+                    <div class="p-6 relative z-20">
+                        <div class="flex gap-2 mb-3">
+                            <span class="text-xs px-2 py-1 rounded bg-indigo-500/10 text-indigo-400">C# .NET</span>
+                            <span class="text-xs px-2 py-1 rounded bg-gray-500/10 text-gray-300">SQL</span>
+                        </div>
+                        <h3 class="text-xl font-bold text-white mb-2 group-hover:text-primary transition-colors">Retail Operations Suite</h3>
+                        <p class="text-sm text-gray-400 mb-4 line-clamp-3">High-performance desktop app for real-time inventory and supply chain monitoring.</p>
+                        <a href="#" class="text-sm font-semibold text-white flex items-center gap-1 group/link">
+                            View Details <i class="fas fa-chevron-right text-xs group-hover/link:translate-x-1 transition-transform"></i>
+                        </a>
+                    </div>
+                </div>
+                 <!-- Project 5 -->
+                 <div class="group relative rounded-xl overflow-hidden bg-dark-800 border border-gray-700 hover:shadow-2xl hover:shadow-primary/10 transition-all duration-300" data-aos="fade-up">
+                    <div class="h-48 overflow-hidden relative">
+                         <div class="absolute inset-0 bg-gradient-to-t from-dark-900 to-transparent opacity-60 z-10"></div>
+                        <img src="https://cdn.jsdelivr.net/gh/akilama471/akilama471.github.io@main/assets/img/projects/flutter.webp" alt="Restaurant App" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                    </div>
+                    <div class="p-6 relative z-20">
+                        <div class="flex gap-2 mb-3">
+                            <span class="text-xs px-2 py-1 rounded bg-green-400/10 text-green-400">Flutter</span>
+                            <span class="text-xs px-2 py-1 rounded bg-blue-500/10 text-blue-300">Stripe</span>
+                        </div>
+                        <h3 class="text-xl font-bold text-white mb-2 group-hover:text-primary transition-colors">Restaurant Management</h3>
+                        <p class="text-sm text-gray-400 mb-4 line-clamp-3">Food service platform with real-time order processing and delivery logistics.</p>
+                        <a href="#" class="text-sm font-semibold text-white flex items-center gap-1 group/link">
+                            View Details <i class="fas fa-chevron-right text-xs group-hover/link:translate-x-1 transition-transform"></i>
+                        </a>
+                    </div>
+                </div>
+
             </div>
-            <div class="mt-5 text-center">
-              <a href="https://nextgenware.github.io" class="btn btn-primary rounded-pill px-4 py-2" target="_blank" aria-label="visit-nextgenware">Visit NextGenWare</a>
+            
+            <div class="text-center mt-12 md:hidden">
+                <a href="https://github.com/akilama471" target="_blank" class="inline-flex items-center text-primary hover:text-white transition-colors">
+                    View all on GitHub <i class="fas fa-arrow-right ml-2"></i>
+                </a>
             </div>
-          </div>
         </div>
-      </div>
     </section>
 
     <!-- Contact Section -->
-    <section id="contact" class="contact section">
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Contact</h2>
-        <p>
-         Let's collaborate to bring your vision to life with innovative, scalable, and user-centric digital solutions.
-        </p>
-      </div>
-      <!-- End Section Title -->
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-        <div class="row gy-4">
-          <div class="col-lg-5">
-            <div class="info-wrap">
-              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
-                <i class="bi bi-geo-alt flex-shrink-0"></i>
-                <div>
-                  <h3>Address</h3>
-                  <p>
-                    School Junction, Minuwangate , Wariyapola - 60400,
-                    Srilanka
-                  </p>
+    <section id="contact" class="py-20 bg-dark-800/50">
+        <div class="container mx-auto px-6">
+            <div class="max-w-4xl mx-auto">
+                <div class="text-center mb-16" data-aos="fade-up">
+                    <h2 class="text-3xl md:text-4xl font-bold text-white mb-4">Get In Touch</h2>
+                    <p class="text-gray-400">Let's collaborate to bring your vision to life.</p>
                 </div>
-              </div>
-              <!-- End Info Item -->
-              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
-                <i class="bi bi-telephone flex-shrink-0"></i>
-                <div>
-                  <h3>Call Me</h3>
-                  <p><a href="tel:+94701108494" aria-label="phone-number">+94 70 110 8494</a></p>
-                </div>
-              </div>
-              <!-- End Info Item -->
-              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
-                <i class="bi bi-whatsapp flex-shrink-0"></i>
-                <div>
-                  <h3>Whatsapp Me</h3>
-                  <p><a href="https://wa.me/+94755224417" aria-label="whatsapp-number">+94 75 522 4417</a></p>
-                </div>
-              </div>
-              <!-- End Info Item -->
-              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
-                <i class="bi bi-envelope flex-shrink-0"></i>
-                <div>
-                  <h3>Email Us</h3>
-                  <p><a href="mailto:developer.akila5@gmail.com"
-                      aria-label="email-address">developer.akila5@gmail.com</a></p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-7">
-            <div class="social-links-container" data-aos="fade-up" data-aos-delay="200">
-              <h3>Connect With Me</h3>
-              <div class="social-links d-flex flex-wrap gap-3 mt-3">
-                <a href="https://github.com/akilama471" class="social-btn" rel="me" target="_blank" aria-label="GitHub">
-                  <i class="bi bi-github"></i>
-                </a>
-                <a href="https://github.com/akilama471" class="social-btn" rel="me" target="_blank" aria-label="GitHub">
-                  <i class="bi bi-person-badge"></i>
-                </a>
-                <a href="https://dev.to/akilamadhushanka471" class="social-btn" rel="me" target="_blank"
-                  aria-label="LinkedIn">
-                  <i class="bi bi-linkedin"></i>
-                </a>
-                <a href="https://www.facebook.com/akila.madhushanka471" class="social-btn" rel="me" target="_blank"
-                  aria-label="Facebook">
-                  <i class="bi bi-facebook"></i>
-                </a>
-                <a href="https://www.instagram.com/akila.madhushanka471" class="social-btn" rel="me" target="_blank"
-                  aria-label="Instagram">
-                  <i class="bi bi-instagram"></i>
-                </a>
-                <a href="https://stackoverflow.com/users/21840479/akila-madhushanka" class="social-btn" rel="me" target="_blank" aria-label="GitHub">
-                  <i class="bi bi-code-slash"></i>
-                </a>
-                <a href="https://discordapp.com/users/775019743651823646" class="social-btn" rel="me" target="_blank"
-                  aria-label="Discord">
-                  <i class="bi bi-discord"></i>
-                </a>
-                <a href="https://www.tiktok.com/@akila.madhushanka39" class="social-btn" rel="me" target="_blank"
-                  aria-label="TikTok">
-                  <i class="bi bi-tiktok"></i>
-                </a>
-                <a href="https://x.com/akilama471/" class="social-btn" rel="me" target="_blank" aria-label="Twitter/X">
-                  <i class="bi bi-twitter-x"></i>
-                </a>
-                <a href="https://about.me/akilamadhushanka" class="social-btn" rel="me" target="_blank"
-                  aria-label="About.me">
-                  <i class="bi bi-person-badge"></i>
-                </a>
-                <a href="https://www.reddit.com/user/akilamadhushanka/" class="social-btn" rel="me" target="_blank"
-                  aria-label="Reddit">
-                  <i class="bi bi-reddit"></i>
-                </a>
-                <a href="https://www.pinterest.com/akila_madusanka_471/" class="social-btn" rel="me" target="_blank"
-                  aria-label="Pinterest">
-                  <i class="bi bi-pinterest"></i>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-  </main>
-  
-  <footer id="footer" class="footer position-relative">
-    <div class="container">
-      <div class="copyright text-center"></div>
-      <div class="credits">
-        Designed by
-        <a href="https://akilama471.github.io/" rel="me" aria-label="akila-madhushanka-portfolio">Akila Madhushanka</a>
-      </div>
-    </div>
-  </footer>
-  <!-- Scroll Top -->
-  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"
-    aria-label="back-to-top"><i class="bi bi-arrow-up-short"></i></a>
-  <!-- Preloader -->
-  <div id="preloader"></div>
-  <!-- Vendor JS Files -->
-  <script
-    src="https://cdn.jsdelivr.net/gh/akilama471/akilama471.github.io@main/assets/vendor/bootstrap/js/bootstrap.min.js"
-    defer></script>
-  <script
-    src="https://cdn.jsdelivr.net/gh/akilama471/akilama471.github.io@main/assets/vendor/php-email-form/validate.js"
-    defer></script>
-  <script src="https://cdn.jsdelivr.net/gh/akilama471/akilama471.github.io@main/assets/vendor/aos/aos.js"
-    defer></script>
-  <script
-    src="https://cdn.jsdelivr.net/gh/akilama471/akilama471.github.io@main/assets/vendor/glightbox/js/glightbox.min.js"
-    defer></script>
-  <script src="https://cdn.jsdelivr.net/gh/akilama471/akilama471.github.io@main/assets/vendor/typed.js/typed.umd.js"
-    defer></script>
-  <script
-    src="https://cdn.jsdelivr.net/gh/akilama471/akilama471.github.io@main/assets/vendor/purecounter/purecounter_vanilla.js"
-    defer></script>
-  <script
-    src="https://cdn.jsdelivr.net/gh/akilama471/akilama471.github.io@main/assets/vendor/waypoints/noframework.waypoints.js"
-    defer></script>
-  <script
-    src="https://cdn.jsdelivr.net/gh/akilama471/akilama471.github.io@main/assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"
-    defer></script>
-  <script
-    src="https://cdn.jsdelivr.net/gh/akilama471/akilama471.github.io@main/assets/vendor/isotope-layout/isotope.pkgd.min.js"
-    defer></script>
-  <script
-    src="https://cdn.jsdelivr.net/gh/akilama471/akilama471.github.io@main/assets/vendor/swiper/swiper-bundle.min.js"
-    defer></script>
-  <!-- Main JS File -->
-  <script src="https://cdn.jsdelivr.net/gh/akilama471/akilama471.github.io@main/assets/js/main.js" defer></script>
-  <script>
-    if ('serviceWorker' in navigator) {
-      window.addEventListener('load', () => {
-        navigator.serviceWorker.register('/service-worker.js')
-          .then(reg => {
-            console.log('✅ Service Worker registered:', reg.scope);
-          })
-          .catch(err => {
-            console.log('❌ Service Worker registration failed:', err);
-          });
-      });
-    }
-  </script>
-</body>
 
+                <div class="grid md:grid-cols-2 gap-12 bg-dark-900 p-8 rounded-2xl border border-gray-700 shadow-2xl">
+                    
+                    <!-- Contact Info -->
+                    <div data-aos="fade-right">
+                        <h3 class="text-2xl font-bold text-white mb-6">Contact Information</h3>
+                        
+                        <div class="space-y-6">
+                            <div class="flex items-start gap-4">
+                                <div class="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center text-primary shrink-0">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                </div>
+                                <div>
+                                    <h4 class="text-white font-semibold">Location</h4>
+                                    <p class="text-gray-400 text-sm">Wariyapola, Sri Lanka (60400)</p>
+                                </div>
+                            </div>
+
+                            <div class="flex items-start gap-4">
+                                <div class="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center text-primary shrink-0">
+                                    <i class="fas fa-envelope"></i>
+                                </div>
+                                <div>
+                                    <h4 class="text-white font-semibold">Email</h4>
+                                    <a href="mailto:developer.akila5@gmail.com" class="text-gray-400 text-sm hover:text-primary">developer.akila5@gmail.com</a>
+                                </div>
+                            </div>
+
+                            <div class="flex items-start gap-4">
+                                <div class="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center text-primary shrink-0">
+                                    <i class="fas fa-phone"></i>
+                                </div>
+                                <div>
+                                    <h4 class="text-white font-semibold">Phone</h4>
+                                    <a href="tel:+94701108494" class="text-gray-400 text-sm hover:text-primary block">+94 70 110 8494</a>
+                                    <a href="https://wa.me/+94755224417" class="text-gray-400 text-sm hover:text-primary block">+94 75 522 4417 (WhatsApp)</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="mt-8">
+                            <h4 class="text-white font-semibold mb-3">Connect on Socials</h4>
+                            <div class="flex gap-4">
+                                <a href="https://linkedin.com/in/akilama471" class="w-10 h-10 rounded-lg bg-dark-800 border border-gray-700 flex items-center justify-center text-gray-400 hover:text-white hover:bg-primary transition-all">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </a>
+                                <a href="https://github.com/akilama471" class="w-10 h-10 rounded-lg bg-dark-800 border border-gray-700 flex items-center justify-center text-gray-400 hover:text-white hover:bg-primary transition-all">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="https://facebook.com" class="w-10 h-10 rounded-lg bg-dark-800 border border-gray-700 flex items-center justify-center text-gray-400 hover:text-white hover:bg-primary transition-all">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Contact Form (Mockup) -->
+                    <div data-aos="fade-left">
+                        <form onsubmit="event.preventDefault(); alert('Thank you! This is a demo form.');" class="space-y-4">
+                            <div>
+                                <label class="block text-sm text-gray-400 mb-1">Name</label>
+                                <input type="text" class="w-full bg-dark-800 border border-gray-700 rounded-lg px-4 py-2 text-white focus:outline-none focus:border-primary transition-colors" placeholder="Your Name">
+                            </div>
+                            <div>
+                                <label class="block text-sm text-gray-400 mb-1">Email</label>
+                                <input type="email" class="w-full bg-dark-800 border border-gray-700 rounded-lg px-4 py-2 text-white focus:outline-none focus:border-primary transition-colors" placeholder="your@email.com">
+                            </div>
+                            <div>
+                                <label class="block text-sm text-gray-400 mb-1">Message</label>
+                                <textarea rows="4" class="w-full bg-dark-800 border border-gray-700 rounded-lg px-4 py-2 text-white focus:outline-none focus:border-primary transition-colors" placeholder="Tell me about your project..."></textarea>
+                            </div>
+                            <button class="w-full bg-primary text-white font-bold py-3 rounded-lg hover:bg-cyan-600 transition-colors shadow-lg shadow-primary/20">
+                                Send Message
+                            </button>
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark-900 border-t border-gray-800 py-8">
+        <div class="container mx-auto px-6 text-center">
+            <p class="text-gray-500 text-sm">
+                &copy; <span id="year"></span> Akila Madhushanka. All rights reserved.
+            </p>
+            <p class="text-gray-600 text-xs mt-2">
+                Founder of <a href="https://nextgenware.github.io" class="hover:text-primary">NextGenWare</a>
+            </p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script>
+        // Init Animations
+        AOS.init({
+            duration: 800,
+            once: true,
+            offset: 50
+        });
+
+        // Current Year
+        document.getElementById('year').textContent = new Date().getFullYear();
+
+        // Typewriter Effect
+        new Typewriter('#typewriter', {
+            strings: ['Full-Stack Developer', 'Mobile App Expert', 'Solutions Architect', 'Tech Enthusiast'],
+            autoStart: true,
+            loop: true,
+            delay: 75,
+            deleteSpeed: 50,
+        });
+
+        // Mobile Menu Toggle
+        const btn = document.getElementById('menu-btn');
+        const menu = document.getElementById('mobile-menu');
+
+        btn.addEventListener('click', () => {
+            menu.classList.toggle('hidden');
+        });
+
+        // Smooth Scroll for Anchor Links (Optional fix for some browsers)
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                menu.classList.add('hidden'); // Close mobile menu on click
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Navbar blur effect on scroll
+        window.addEventListener('scroll', () => {
+            const nav = document.getElementById('navbar');
+            if (window.scrollY > 50) {
+                nav.classList.add('shadow-lg');
+            } else {
+                nav.classList.remove('shadow-lg');
+            }
+        });
+    </script>
+</body>
 </html>
