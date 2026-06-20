@@ -1,3 +1,0 @@
-User-agent: *
-Allow: /
-Sitemap: https://akilama471.github.io/sitemap.xml
