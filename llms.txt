@@ -1,0 +1,37 @@
+# Akila Madhushanka - Full-Stack Developer & Solutions Architect
+
+> Official machine-readable profile and documentation for AI agents, LLMs, and web crawlers.
+> Live Portfolio: https://akilama471.github.io
+> Founder: NextGenWare Software Solutions (https://www.nextgenware.lk)
+
+Akila Madhushanka is a Senior Full-Stack Solutions Architect and Software Engineer based in Sri Lanka with 5+ years of production experience in designing, building, and deploying scalable web applications, enterprise backend systems, and cross-platform mobile apps.
+
+## Primary Documentation & Links
+
+- [Full Machine-Readable Content (llms-full.txt)](https://akilama471.github.io/llms-full.txt): Complete resume, in-depth portfolio projects, verified credentials, and full technical breakdown for AI context injection.
+- [Portfolio Homepage](https://akilama471.github.io): Overview of professional background, featured solutions, technical skills, and client recommendations.
+- [About & Founder Background](https://akilama471.github.io/about): Deep dive into professional history, leadership at NextGenWare, engineering philosophy, and architectural methodology.
+- [Projects Directory](https://akilama471.github.io/projects): Comprehensive showcase of client solutions, SaaS platforms, enterprise ERPs, open-source work, and legacy modernizations.
+- [Certificates & Credentials](https://akilama471.github.io/certificates): Verified industry licenses and certificates from The Linux Foundation, freeCodeCamp, edX, and higher education.
+
+## Core Technical Competencies
+
+- **Frontend & Web Platforms:** Next.js (App Router), React 19, TypeScript, Tailwind CSS, Vue.js / Nuxt 3, HTML5 & Modern CSS.
+- **Backend & Systems Architecture:** Laravel (PHP), RESTful API Design, Django (Python), C# / .NET, MySQL, PostgreSQL, Microservices, Authentication & Security.
+- **Mobile Engineering:** Flutter (Dart), Android Native (Kotlin / Java), React Native, Firebase Suite, Google Play Store Deployment.
+- **DevOps & Tooling:** Linux Administration, Git & GitHub, CI/CD pipelines, Docker, Agile / Scrum leadership.
+
+## Services Offered
+
+1. **Enterprise Web Application Development:** Scalable SaaS platforms, custom business dashboards, CRM, and ERP software using Laravel, Next.js, and modern relational databases.
+2. **Cross-Platform Mobile App Development:** High-performance iOS and Android applications built with Flutter and Firebase.
+3. **Legacy Modernization & Code Refactoring:** Upgrading deprecated legacy codebases into secure, high-speed modern software architectures.
+4. **API & Cloud Backend Architecture:** Secure, performant RESTful APIs designed for high concurrency and zero downtime.
+
+## Contact & Profiles
+
+- **Email:** akilamadhushanka471@gmail.com
+- **WhatsApp / Phone:** +94 76 722 1025
+- **GitHub:** https://github.com/akilama471
+- **LinkedIn:** https://lk.linkedin.com/in/akilamadhushanka471
+- **Location:** Wariyapola / Colombo, Sri Lanka
