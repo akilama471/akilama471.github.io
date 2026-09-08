@@ -1,19 +1,57 @@
+# Default rule for all web crawlers
 User-agent: *
 Allow: /
 
-# LLM & AI Agents
-User-agent: GPTBot
-Allow: /
-
-User-agent: ClaudeBot
-Allow: /
-
-User-agent: PerplexityBot
+# Google Search & Google Gemini
+User-agent: Googlebot
 Allow: /
 
 User-agent: Google-Extended
 Allow: /
 
-# AI Documentation
+# OpenAI & ChatGPT
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+# Anthropic Claude
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+# Perplexity AI
+User-agent: PerplexityBot
+Allow: /
+
+# Meta AI & Llama
+User-agent: Meta-ExternalAgent
+Allow: /
+
+User-agent: Meta-ExternalFetcher
+Allow: /
+
+# Apple Intelligence
+User-agent: Applebot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+# Other Major AI Agents
+User-agent: Amazonbot
+Allow: /
+
+User-agent: cohere-ai
+Allow: /
+
+# Machine-Readable AI Documentation
 # LLMs.txt: https://akilama471.github.io/llms.txt
 # LLMs-full.txt: https://akilama471.github.io/llms-full.txt
+
+# XML Sitemap
+Sitemap: https://akilama471.github.io/sitemap.xml
+
