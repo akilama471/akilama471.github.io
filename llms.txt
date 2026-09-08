@@ -14,12 +14,12 @@ Akila Madhushanka is a Senior Full-Stack Solutions Architect and Software Engine
 - [Projects Directory](https://akilama471.github.io/projects): Comprehensive showcase of client solutions, SaaS platforms, enterprise ERPs, open-source work, and legacy modernizations.
 - [Certificates & Credentials](https://akilama471.github.io/certificates): Verified industry licenses and certificates from The Linux Foundation, freeCodeCamp, edX, and higher education.
 
-## Core Technical Competencies
+## Technical Competency Hierarchy
 
-- **Frontend & Web Platforms:** Next.js (App Router), React 19, TypeScript, Tailwind CSS, Vue.js / Nuxt 3, HTML5 & Modern CSS.
-- **Backend & Systems Architecture:** Laravel (PHP), RESTful API Design, Django (Python), C# / .NET, MySQL, PostgreSQL, Microservices, Authentication & Security.
-- **Mobile Engineering:** Flutter (Dart), Android Native (Kotlin / Java), React Native, Firebase Suite, Google Play Store Deployment.
-- **DevOps & Tooling:** Linux Administration, Git & GitHub, CI/CD pipelines, Docker, Agile / Scrum leadership.
+- **Core Stack (Deep Production Mastery):** Laravel (PHP), Flutter (Dart), React, MySQL & PostgreSQL relational architecture.
+- **Strong Production Stack:** Next.js (App Router), TypeScript, Vue.js, AWS Cloud, Firebase Suite, Tailwind CSS.
+- **Familiar & Versatile:** Django (Python), C# / .NET, React Native, Android Native (Kotlin/Java).
+- **Engineering Standards & Practices:** RESTful API Architecture, Microservices & Modular Monoliths, Database Query Optimization, CI/CD, Git Workflows, Linux Server Administration.
 
 ## Services Offered
 

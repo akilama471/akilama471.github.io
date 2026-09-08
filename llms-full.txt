@@ -24,30 +24,24 @@ His core strengths lie in bridging modern reactive user interfaces with robust, 
 
 ---
 
-## Technical Skills Matrix
+## Technical Competency Matrix (Senior Hierarchy)
 
-### 1. Frontend & Web Development
-- Frameworks & Libraries: Next.js (App Router, Server Actions, SSG/SSR), React 19, Vue.js, Nuxt 3, Livewire / Livewire Volt.
-- Languages: TypeScript, JavaScript (ES6+), HTML5, CSS3.
-- Styling: Tailwind CSS (v3 and v4), Bootstrap, Modern Responsive Design, CSS Animations.
-- Performance & UX: Core Web Vitals optimization, accessibility (a11y), PWA (Progressive Web Apps), SEO & GEO optimization.
+### 1. Core Stack (Deep Production Mastery)
+- Technologies: Laravel (PHP 8.x), Flutter (Dart), React, MySQL & PostgreSQL.
+- Focus: Multi-year architectural ownership of high-concurrency commercial platforms, relational database indexing and normalization, complex state management, and end-to-end full-stack systems.
 
-### 2. Backend & System Architecture
-- Primary Frameworks: Laravel (PHP 8.x) - Expert Level, Django (Python), ASP.NET / C#.
-- Architecture Paradigms: Clean Architecture, Repository Pattern, MVC, Modular Monoliths, Microservices, RESTful API Design.
-- Database Systems: MySQL, PostgreSQL, SQLite, Database Normalization, Index Optimization, Complex Query Tuning.
-- Authentication & Security: Role-Based Access Control (RBAC), OAuth2, JWT, Sanctum, CSRF/XSS mitigation.
+### 2. Strong Production Stack (Active Delivery & Scale)
+- Technologies: Next.js (App Router, Server Actions, SSG/SSR), TypeScript, Vue.js, AWS Cloud, Firebase Suite, Tailwind CSS.
+- Focus: Regular production delivery of modern web applications, strictly-typed frontends, serverless architectures, and responsive design systems.
 
-### 3. Mobile Engineering
-- Frameworks: Flutter (Dart) - Expert Level, Android Native (Java, Kotlin), React Native.
-- Mobile Architecture: BLoC, Provider, State Management, Clean Architecture.
-- Services & Integrations: Firebase (Auth, Firestore, Cloud Messaging, Crashlytics), SQLite, Push Notifications, Play Store Deployment.
+### 3. Familiar & Versatile (Cross-Platform Adaptability)
+- Technologies: Django (Python), C# / .NET, React Native, Android Native (Java/Kotlin).
+- Focus: Project-tested versatility, multi-framework problem solving, and legacy modernization.
 
-### 4. DevOps, Infrastructure & Tools
-- Version Control: Git, GitHub Actions, CI/CD automated deployment pipelines.
-- Operating Systems: Linux (Debian, Ubuntu), Shell Scripting.
-- Cloud & Hosting: AWS, Vercel, Netlify, cPanel, Cloudflare CDN / WAF.
-- Collaboration: Agile / Scrum, Jira, Trello, Client Technical Requirement Gathering.
+### 4. Engineering Standards & Architectural Disciplines
+- Architecture & Design: RESTful API Architecture, Microservices, Clean Architecture, Repository Pattern, MVC.
+- DevOps & Infrastructure: Linux (Ubuntu/Debian) Server Administration, Git & GitHub Actions, CI/CD automated deployment pipelines.
+- Security & Standards: Role-Based Access Control (RBAC), OAuth2, JWT, Sanctum, Database Query Optimization & Indexing, Agile / Scrum delivery.
 
 ---
 
