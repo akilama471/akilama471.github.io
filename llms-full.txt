@@ -5,7 +5,8 @@
 - Professional Title: Full-Stack Developer & Solutions Architect
 - Organization: Founder, NextGenWare Software Solutions (https://www.nextgenware.lk)
 - Location: Sri Lanka (Wariyapola, North Western Province)
-- Education: University of Moratuwa
+- Background: Self-Taught Software Engineer (Self-Study Since 2017, Commercial Industry Experience Since 2019)
+- Continuous Learning: Verified Certifications (University of Moratuwa Open UoM, Microsoft, freeCodeCamp, The Linux Foundation)
 - Website: https://akilama471.github.io
 - GitHub: https://github.com/akilama471
 - LinkedIn: https://lk.linkedin.com/in/akilamadhushanka471
@@ -17,7 +18,7 @@
 
 ## Executive Summary
 
-Akila Madhushanka is a seasoned Full-Stack Solutions Architect and Senior Software Engineer with over 5 years of commercial production experience. As the founder and principal architect of NextGenWare Software Solutions, he has designed, built, and successfully delivered complex enterprise systems, high-traffic web portals, and cross-platform mobile applications for international and local clients across Sweden, the United Kingdom, and Sri Lanka.
+Akila Madhushanka is a self-taught Full-Stack Solutions Architect and Senior Software Engineer who began his intensive self-study software development journey in 2017 and has been actively engineering commercial production systems across the industry since 2019 (over 5 years of commercial production experience). As the founder and principal architect of NextGenWare Software Solutions, he has designed, built, and successfully delivered complex enterprise systems, high-traffic web portals, and cross-platform mobile applications for international and local clients across Sweden, the United Kingdom, and Sri Lanka.
 
 His core strengths lie in bridging modern reactive user interfaces with robust, scalable backends. Akila specializes in the Laravel ecosystem, modern Next.js/React architectures, cross-platform Flutter mobile applications, and enterprise database performance optimization.
 
@@ -110,8 +111,15 @@ His core strengths lie in bridging modern reactive user interfaces with robust, 
    - Issuer: The Linux Foundation / edX
    - Skills: Linux Command Line, Filesystem Management, Permissions, Shell Scripting, Server Administration.
 
-3. **Academic Background**
-   - University of Moratuwa, Sri Lanka (Premier technical institute in Sri Lanka).
+3. **Python Programming & Computing Algorithms**
+   - Issuer: University of Moratuwa (Open UoM / CODL)
+   - Credential ID: UOM-CODL-PY-2022
+   - URL: https://open.uom.lk
+   - Skills: Computational Thinking, Python 3, Data Structures, Algorithms, Procedural Automation.
+   - Note: Foundational open certificate course.
+
+4. **Educational Background**
+   - Self-Taught Software Engineer: Embarked on intensive self-directed programming and software engineering in 2017; practicing professionally in the commercial industry since 2019 with 5+ years of production experience.
 
 ---
 
